@@ -44,7 +44,6 @@
     <string name="usb_debugging_message">"Цифровой отпечаток ключа RSA:
 %1$s"</string>
     <string name="usb_debugging_always">Всегда разрешать отладку с этого компьютера</string>
-
     <string name="compat_mode_on">Подогнать по размерам экрана</string>
     <string name="compat_mode_off">Растянуть на весь экран</string>
     <string name="screenshot_saving_ticker">Сохранение...</string>
@@ -56,7 +55,6 @@
     <string name="screenshot_failed_text">Не удалось сохранить скриншот. Возможно, накопители заняты.</string>
     <string name="usb_preference_title">Параметры передачи через USB</string>
     <string name="use_mtp_button_title">Подключить как мультимедийный проигрыватель (MTP)</string>
-
     <string name="use_ptp_button_title">Установить как камеру (PTP)</string>
     <string name="installer_cd_button_title">Установить приложение</string>
     <string name="accessibility_back">Назад</string>
@@ -276,8 +274,7 @@
     <string name="expanded_header_battery_charging">Зарядка</string>
     <string name="expanded_header_battery_charging_with_time">%s до полной</string>
     <string name="expanded_header_battery_not_charging">Не заряжается</string>
-    <string name="ssl_ca_cert_warning">«Сеть может
-контролироваться»</string>
+    <string name="ssl_ca_cert_warning">«Сеть может контролироваться»</string>
     <string name="description_target_search">Поиск</string>
     <string name="description_direction_up">Проведите пальцем вверх, чтобы %s</string>
     <string name="description_direction_left">Проведите пальцем влево, чтобы %s</string>
@@ -338,7 +335,7 @@
     <string name="monitoring_title">Мониторинг сети</string>
     <string name="disable_vpn">Закрыть VPN</string>
     <string name="disconnect_vpn">Отключите соединение VPN</string>
-    <string name="monitoring_description_device_owned">&quot;Это устройство осуществляется с помощью следующих элементов
+    <string name="monitoring_description_device_owned">"Это устройство осуществляется с помощью следующих элементов
  %1$s
 
 
@@ -346,69 +343,63 @@
 Администратор может контролировать свои устройства и сети деятельности, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла.
 
 
-Чтобы узнать больше, пожалуйста, обратитесь к администратору. &quot;</string>
-    <string name="monitoring_description_vpn">&quot;Вы дали разрешение&quot; %1$s »Настройка соединения VPN.
-
-
-Это приложение может контролировать свои устройства и сети деятельности, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла. &quot;</string>
-    <string name="monitoring_description_legacy_vpn">&quot;Вы должны подключиться к VPN (&quot; %1$s »).
-
-
-Ваше VPN провайдер может контролировать свои устройства и сети деятельности, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла. &quot;</string>
-    <string name="monitoring_description_vpn_device_owned">&quot;Это устройство осуществляется с помощью следующих элементов:
+Чтобы узнать больше, пожалуйста, обратитесь к администратору. "</string>
+    <string name="monitoring_description_vpn">"Вы дали разрешение %1$s »Настройка соединения VPN. Это приложение может контролировать свои устройства и сети деятельности, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла. "</string>
+    <string name="monitoring_description_legacy_vpn">"Вы должны подключиться к VPN ( %1$s »). Ваше VPN провайдер может контролировать свои устройства и сети деятельности, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла. "</string>
+    <string name="monitoring_description_vpn_device_owned">"Это устройство осуществляется с помощью следующих элементов:
  %1$s
 
 Администратор может отслеживать сетевую активность, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла. Чтобы узнать больше, пожалуйста, обратитесь к администратору.
 
-Кроме того, вы дали разрешение &quot; %2$s&quot; установить соединение VPN. Это приложение может также контролировать сетевую активность. &quot;</string>
-    <string name="monitoring_description_legacy_vpn_device_owned">&quot;Это устройство осуществляется с помощью следующих элементов:
+Кроме того, вы дали разрешение  %2$s установить соединение VPN. Это приложение может также контролировать сетевую активность. "</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Это устройство осуществляется с помощью следующих элементов:
  %1$s
 
 Администратор может отслеживать сетевую активность, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла. Чтобы узнать больше, пожалуйста, обратитесь к администратору.
 
-Кроме того, вы можете подключиться к VPN (&quot; %2$s»). Ваш поставщик услуг VPN также может отслеживать сетевую активность. &quot;</string>
-    <string name="monitoring_description_profile_owned">&quot;Эта информация находится в ведении следующих блоков:
+Кроме того, вы можете подключиться к VPN ( %2$s»). Ваш поставщик услуг VPN также может отслеживать сетевую активность. "</string>
+    <string name="monitoring_description_profile_owned">"Эта информация находится в ведении следующих блоков:
  %1$s
 
 Администратор может контролировать свои устройства и сети деятельности, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла.
 
-Чтобы узнать больше, пожалуйста, обратитесь к администратору. &quot;</string>
-    <string name="monitoring_description_device_and_profile_owned">&quot;Это устройство осуществляется с помощью следующих элементов:
+Чтобы узнать больше, пожалуйста, обратитесь к администратору. "</string>
+    <string name="monitoring_description_device_and_profile_owned">"Это устройство осуществляется с помощью следующих элементов:
  %1$
 Данные осуществляется с помощью следующих элементов:
  %2$s
 
 Администратор может контролировать свои устройства и сети деятельности, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла.
 
-Чтобы узнать больше, пожалуйста, обратитесь к администратору. &quot;</string>
-    <string name="monitoring_description_vpn_profile_owned">&quot;Эта информация находится в ведении следующих блоков:
+Чтобы узнать больше, пожалуйста, обратитесь к администратору. "</string>
+    <string name="monitoring_description_vpn_profile_owned">"Эта информация находится в ведении следующих блоков:
  %1$s
 
 Администратор может отслеживать сетевую активность, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла. Чтобы узнать больше, пожалуйста, обратитесь к администратору.
 
-Кроме того, вы дали разрешение &quot; %2$s&quot; установить соединение VPN. Это приложение может также контролировать сетевую активность. &quot;</string>
-    <string name="monitoring_description_legacy_vpn_profile_owned">&quot;Эта информация находится в ведении следующих блоков:
+Кроме того, вы дали разрешение  %2$s установить соединение VPN. Это приложение может также контролировать сетевую активность. "</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Эта информация находится в ведении следующих блоков:
  %1$s
 
 Администратор может отслеживать сетевую активность, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла. Чтобы узнать больше, пожалуйста, обратитесь к администратору.
 
-Кроме того, вы можете подключиться к VPN (&quot; %2$s»). Ваш поставщик услуг VPN также может отслеживать сетевую активность. &quot;</string>
-    <string name="monitoring_description_vpn_device_and_profile_owned">&quot;Это устройство осуществляется с помощью следующих элементов:
+Кроме того, вы можете подключиться к VPN ( %2$s»). Ваш поставщик услуг VPN также может отслеживать сетевую активность. "</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Это устройство осуществляется с помощью следующих элементов:
  %1$
 Данные осуществляется с помощью следующих элементов:
  %2$s
 
 Администратор может отслеживать сетевую активность, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла. Чтобы узнать больше, пожалуйста, обратитесь к администратору.
 
-Кроме того, вы дали разрешение &quot; %3$s&quot; установить соединение VPN. Это приложение может также контролировать сетевую активность. &quot;</string>
-    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">&quot;Это устройство осуществляется с помощью следующих элементов:
+Кроме того, вы дали разрешение  %3$s установить соединение VPN. Это приложение может также контролировать сетевую активность. "</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Это устройство осуществляется с помощью следующих элементов:
  %1$
 Данные осуществляется с помощью следующих элементов:
  %2$s
 
 Администратор может отслеживать сетевую активность, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла. Чтобы узнать больше, пожалуйста, обратитесь к администратору.
 
-Кроме того, вы можете подключиться к VPN (&quot; %3$s»). Ваш поставщик услуг VPN также может отслеживать сетевую активность. &quot;</string>
+Кроме того, вы можете подключиться к VPN ( %3$s»). Ваш поставщик услуг VPN также может отслеживать сетевую активность. "</string>
     <string name="keyguard_indication_trust_disabled">Прежде чем вручную разблокировать устройство останется заблокированным</string>
     <string name="hidden_notifications_title">Смотреть более быстро заметите,</string>
     <string name="hidden_notifications_text">Вы можете просмотреть уведомления без разблокировки</string>
@@ -422,49 +413,49 @@
     <string name="phone_content">Пропущенные вызовы</string>
     <string name="screen_saver_title">Карманный Anti случайно режим</string>
     <string name="screen_saver_message">Не прикасайтесь к верхней части телефона</string>
-    <string name="screen_saver_force_quite">Force Quit: Нажмите &quot;Volume -&quot; и &quot;возвращение&quot;</string>
+    <string name="screen_saver_force_quite">Force Quit: Нажмите Volume - и возвращение</string>
     <string name="settings_low_battery_title">Мощность напомнить</string>
     <string name="settings_low_battery_message">БАТАРЕИ 40%, не заряжается, не мог нести его завтра.</string>
     <string name="low_battery_toast">Низкий уровень заряда батареи, телефон вот-вот выключится.</string>
-    <string name="ic_qs_wifi">Wi-Fi</string>
+    <string name="ic_qs_wifi">WLAN</string>
     <string name="ic_qs_bluetooth">Bluetooth</string>
     <string name="ic_qs_gps">GPS</string>
-    <string name="ic_qs_mobile">Передача данных</string>
-    <string name="ic_qs_syn">Синхронизация</string>
+    <string name="ic_qs_mobile">Mobile Data</string>
+    <string name="ic_qs_syn">Синхронный</string>
     <string name="ic_qs_auto">Яркость</string>
-    <string name="ic_qs_sync">Синхронизация</string>
-    <string name="ic_qs_rotation">Автоматическое вращение</string>
-    <string name="ic_qs_motion">Жест</string>
+    <string name="ic_qs_sync">Синхронный</string>
+    <string name="ic_qs_rotation">Автоматическое включение экрана</string>
+    <string name="ic_qs_motion">Volley жест</string>
     <string name="ic_qs_ringer">Бесшумный режим</string>
     <string name="ic_qs_vibrate">Вибрация</string>
     <string name="ic_qs_mute">Бесшумный режим</string>
     <string name="ic_qs_airplane">Режим полета</string>
     <string name="ic_qs_saving">Энергосберегающие режим</string>
-    <string name="ic_qs_pocket">В кармане</string>
+    <string name="ic_qs_pocket">Режим Карманный</string>
     <string name="ic_qs_meeting">Режим конференция</string>
     <string name="ic_qs_sleeping">Спящий режим</string>
     <string name="ic_qs_visitor">Гостевой режим</string>
     <string name="ic_qs_brightness">Яркость</string>
-    <string name="ic_qs_wificast">Беспроводной монитор</string>
-    <string name="ic_qs_clear">Очистка</string>
-    <string name="ic_qs_sort">Сортировка</string>
-    <string name="ic_qs_settings">Настройки</string>
+    <string name="ic_qs_wificast">Проекционный экран</string>
+    <string name="ic_qs_clear">Ключ для удаления</string>
+    <string name="ic_qs_sort">Последовательность</string>
+    <string name="ic_qs_settings">Установить</string>
     <string name="ic_qs_lockscreen">Экран блокировки клавиш</string>
-    <string name="ic_qs_screenprojector">Беспроводной монитор</string>
+    <string name="ic_qs_screenprojector">Проекционный экран</string>
     <string name="ic_qs_splitscreen">Режим разделенного экрана</string>
-    <string name="ic_qs_undisturb">Не беспокоить</string>
+    <string name="ic_qs_undisturb">Есть режим не беспокоить</string>
     <string name="arrange_title_name">Редактировать быстрый переход</string>
     <string name="toast_memory_clear">Все фоновые приложения закрыты</string>
-    <string name="close_single_toast">Режим Одна рука выключен</string>
+    <string name="close_single_toast">Режим одной руки выключен</string>
     <string name="close_single_text">Под государство поворот экрана не может использовать одной рукой режим, будет закрыта одной рукой переключатель режимов</string>
     <string name="status_bar_setting_lockscreen">Экран блокировки</string>
     <string name="status_bar_setting_notification">Панель уведомлений</string>
-    <string name="status_bar_setting_miss">Пропущенные события</string>
-    <string name="status_bar_setting_miss_sub">Пропущенные вызовы и непрочитанные сообщения на экране блокировки</string>
-    <string name="status_bar_setting_app_lockscreen">приложение экрана блокировки</string>
-    <string name="status_bar_setting_app_lockscreen_sub">Выберите приложение экрана блокировки</string>
-    <string name="status_bar_setting_app_notification">приложение уведомлений</string>
-    <string name="status_bar_setting_app_notification_sub">Выберите приложение которое отображает сообщение в строке уведомлений</string>
+    <string name="status_bar_setting_miss">Мисс событие</string>
+    <string name="status_bar_setting_miss_sub">В замке экран пропущенных вызовов, непрочитанных сообщений</string>
+    <string name="status_bar_setting_app_lockscreen">Сообщение Блокировка экрана приложения</string>
+    <string name="status_bar_setting_app_lockscreen_sub">Выберите блокировка приложения Сообщение на экране отображается в</string>
+    <string name="status_bar_setting_app_notification">Применение панель уведомлений сообщение</string>
+    <string name="status_bar_setting_app_notification_sub">Выберите приложение отображает сообщение в строке уведомлений</string>
     <string name="statusbar_netspeed_display">Скорость сети в режиме реального времени</string>
     <string name="statusbar_netspeed_desc">В строке состояния отображается текущая скорость сети</string>
     <string name="status_bar_shortcuts">Быстрое переключение</string>
@@ -476,9 +467,9 @@
     <string name="rotation_single_cancel">Отменить</string>
     <string name="rotation_single_ok">Определять</string>
     <string name="split_close_single_text">Государство экране не могут быть использованы с одной ручном режиме, будет закрыта одной рукой переключатель режимов</string>
-    <string name="nubia_rencent_left"> Используется</string>
+    <string name="nubia_rencent_left">Избыток</string>
     <string name="guide_close">Я знаю</string>
-    <string name="white_service_list_guide_tips">Вы можете поместить службу в белом списке, для того, что служба не была убита по ошибке</string>
+    <string name="white_service_list_guide_tips">Вы можете положить фоновая служба белый список, чтобы предотвратить его от убийство</string>
     <string name="reset_service_white_list">Сбросить белый список</string>
     <string name="more_options">Больше</string>
     <string name="reset_service_white_list_conform">Эта услуга будет удален из белого списка, в следующий раз вы используете функциональную клавишу для четкой корреляции может вызвать дисфункцию, стоит ли продолжать?</string>
@@ -510,7 +501,7 @@
     <string name="keyguard_password_enter_puk_code">Пожалуйста, введите код PUK телефонные карточки и новый PIN-код</string>
     <string name="keyguard_password_enter_puk_prompt">Телефонные карточки PUK код</string>
     <string name="keyguard_password_enter_pin_prompt">Новой телефонной карты PIN-код</string>
-    <string name="keyguard_password_entry_touch_hint">&lt;Размер шрифта = &quot;17&quot;&gt; Нажмите, чтобы ввести пароль &lt;/ FONT&gt;</string>
+    <string name="keyguard_password_entry_touch_hint">&lt;Размер шрифта = 17> Нажмите, чтобы ввести пароль &lt;/ FONT></string>
     <string name="keyguard_password_enter_password_code">Введите пароль, чтобы разблокировать</string>
     <string name="keyguard_password_enter_pin_password_code">Введите PIN-код, чтобы разблокировать</string>
     <string name="keyguard_password_wrong_pin_code">PIN-код неправильно.</string>
@@ -522,7 +513,7 @@
     <string name="keyguard_instructions_when_pattern_disabled">Нажмите кнопку Меню для разблокировки.</string>
     <string name="keyguard_network_locked_message">Сеть заблокирована</string>
     <string name="keyguard_missing_sim_message_short">Нет SIM-карты</string>
-    <string name="keyguard_missing_sim_message">В телефоне нет SIM-карты.</string>
+    <string name="keyguard_missing_sim_message">В тедефоне нет SIM-карты.</string>
     <string name="keyguard_missing_sim_instructions">Пожалуйста, ставте SIM-карту.</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-карта отсутствует или не читается, пожалуйста, вставьте SIM-карту.</string>
     <string name="keyguard_permanent_disabled_sim_message_short">SIM-карты не могут быть использованы.</string>
@@ -606,14 +597,14 @@
     <string name="kg_login_submit_button">Войти</string>
     <string name="kg_login_invalid_input">Имя пользователя или неверный пароль.</string>
     <string name="kg_login_account_recovery_hint">"Забыли логин или пароль?
-Посетите "<b>google.com/accounts/recovery</b>".</string>
+Посетите "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_login_checking_password">Проверка аккаунта…</string>
-    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">&quot;Вы имеете% d неудачных попыток ввода пароля.
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Вы имеете% d неудачных попыток ввода пароля.
 
-Пожалуйста, повторите попытку через %d секунд. &quot;</string>
-    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">&quot;Вы имеете% d раз ввода неправильного пароля.
+Пожалуйста, повторите попытку через %d секунд. "</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Вы имеете% d раз ввода неправильного пароля.
 
-Пожалуйста, повторите попытку через %d секунд. &quot;</string>
+Пожалуйста, повторите попытку через %d секунд. "</string>
     <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"У вас есть %d раз неверно указали графический ключ разблокировки.
 
 Пожалуйста, повторите попытку через %d секунд."</string>
