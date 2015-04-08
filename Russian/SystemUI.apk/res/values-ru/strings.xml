@@ -4,32 +4,31 @@
     <string name="status_bar_clear_all_button">Очистить</string>
     <string name="status_bar_recent_remove_item_title">Удалить из списка</string>
     <string name="status_bar_recent_inspect_item_title">О приложении</string>
-    <string name="status_bar_no_recent_apps">Список недавних приложений пуст.</string>
+    <string name="status_bar_no_recent_apps">Здесь будут показаны недавние приложения.</string>
     <string name="status_bar_accessibility_dismiss_recents">Закрыть недавние приложения</string>
     <string name="status_bar_no_notifications_title">Нет уведомлений</string>
     <string name="status_bar_ongoing_events_title">Текущие</string>
     <string name="status_bar_latest_events_title">Уведомления</string>
-    <string name="battery_low_title">Батарея разряжена</string>
-    <string name="battery_low_subtitle">Пожалуйста, подключить зарядное устройство, батарея разряжена</string>
+    <string name="battery_low_title">Батарея почти разряжена</string>
     <string name="battery_low_percent_format">Осталось %d%%</string>
-    <string name="battery_low_percent_format_saver_started">Оставшегося заряда %d%%. Включен помощник энергосбережения.</string>
+    <string name="battery_low_percent_format_saver_started">Уровень заряда батареи: %d%%. Включен режим энергосбережения.</string>
     <string name="invalid_charger">"Зарядка через порт USB не поддерживается.
 Используйте только зарядное устройство из комплекта поставки."</string>
-    <string name="invalid_charger_title">Не поддерживает зарядку USB.</string>
-    <string name="invalid_charger_text">Используйте только зарядное устройство, поставляемое вместе с устройством.</string>
-    <string name="battery_low_why">Подробнее</string>
-    <string name="battery_saver_confirmation_title">Включить помощник энергосбережения?</string>
-    <string name="battery_saver_confirmation_ok">Вкл.</string>
-    <string name="battery_saver_start_action">Помощник энергосбережения</string>
+    <string name="invalid_charger_title">Зарядка через USB не поддерживается.</string>
+    <string name="invalid_charger_text">Используйте только зарядное устройство, поставляемое в комплекте с устройством.</string>
+    <string name="battery_low_why">Настройки</string>
+    <string name="battery_saver_confirmation_title">Включить режим энергосбережения?</string>
+    <string name="battery_saver_confirmation_ok">Включить</string>
+    <string name="battery_saver_start_action">Включить режим энергосбережения</string>
     <string name="status_bar_settings_settings_button">Настройки</string>
     <string name="status_bar_settings_wifi_button">Wi-Fi</string>
     <string name="status_bar_settings_airplane">Режим полета</string>
     <string name="status_bar_settings_auto_rotation">Автоповорот экрана</string>
-    <string name="status_bar_settings_mute_label">Без звука</string>
-    <string name="status_bar_settings_auto_brightness_label">Авто</string>
+    <string name="status_bar_settings_mute_label">ВЫКЛ.</string>
+    <string name="status_bar_settings_auto_brightness_label">АВТО</string>
     <string name="status_bar_settings_notifications">Уведомления</string>
     <string name="bluetooth_tethered">Общий модем доступен через Bluetooth</string>
-    <string name="status_bar_input_method_settings_configure_input_methods">Установите способ ввода</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Настройка способов ввода</string>
     <string name="status_bar_use_physical_keyboard">Физическая клавиатура</string>
     <string name="usb_device_permission_prompt">Открыть приложению \"%1$s\" доступ к USB-устройству?</string>
     <string name="usb_accessory_permission_prompt">Открыть приложению \"%1$s\" доступ к USB-устройству?</string>
@@ -52,7 +51,7 @@
     <string name="screenshot_saved_title">Скриншот сохранен</string>
     <string name="screenshot_saved_text">Нажмите, чтобы просмотреть</string>
     <string name="screenshot_failed_title">Не удалось сохранить скриншот.</string>
-    <string name="screenshot_failed_text">Не удалось сохранить скриншот. Возможно, накопители заняты.</string>
+    <string name="screenshot_failed_text">Не удается сделать скриншот: не хватает памяти или нет разрешения от приложения или организации.</string>
     <string name="usb_preference_title">Параметры передачи через USB</string>
     <string name="use_mtp_button_title">Подключить как мультимедийный проигрыватель (MTP)</string>
     <string name="use_ptp_button_title">Установить как камеру (PTP)</string>
@@ -60,14 +59,14 @@
     <string name="accessibility_back">Назад</string>
     <string name="accessibility_home">Домой</string>
     <string name="accessibility_menu">Меню</string>
-    <string name="accessibility_recent">Недавние приложения</string>
+    <string name="accessibility_recent">Обзор.</string>
     <string name="accessibility_search_light">Поиск</string>
     <string name="accessibility_camera_button">Камера</string>
-    <string name="accessibility_phone_button">Телефон</string>
-    <string name="accessibility_unlock_button">Отпереть</string>
-    <string name="unlock_label">Отпереть</string>
-    <string name="phone_label">Открыть Телефон</string>
-    <string name="camera_label">Включите камеру</string>
+    <string name="accessibility_phone_button">Телефон.</string>
+    <string name="accessibility_unlock_button">Разблокировать.</string>
+    <string name="unlock_label">Разблокировать.</string>
+    <string name="phone_label">Открыть телефон.</string>
+    <string name="camera_label">Открыть камеру.</string>
     <string name="accessibility_ime_switch_button">Кнопка переключения способа ввода.</string>
     <string name="accessibility_compatibility_zoom_button">Кнопка масштабирования (режим совместимости)</string>
     <string name="accessibility_compatibility_zoom_example">Уменьшение изображения для увеличения свободного места на экране.</string>
@@ -94,29 +93,29 @@
     <string name="accessibility_wifi_two_bars">Wi-Fi: два деления</string>
     <string name="accessibility_wifi_three_bars">Wi-Fi: три деления</string>
     <string name="accessibility_wifi_signal_full">Wi-Fi: надежный сигнал</string>
-    <string name="accessibility_wifi_name">Подключение к %s</string>
-    <string name="accessibility_bluetooth_name">Подключение к %s</string>
+    <string name="accessibility_wifi_name">%s: подключено.</string>
+    <string name="accessibility_bluetooth_name">%s: подключено.</string>
     <string name="accessibility_no_wimax">Нет сигнала WiMAX.</string>
     <string name="accessibility_wimax_one_bar">Сигнал WiMAX: одно деление.</string>
     <string name="accessibility_wimax_two_bars">Сигнал WiMAX: два деления.</string>
     <string name="accessibility_wimax_three_bars">Сигнал WiMAX: три деления.</string>
     <string name="accessibility_wimax_signal_full">Надежный сигнал WiMAX.</string>
     <string name="accessibility_no_signal">Нет сигнала</string>
-    <string name="accessibility_not_connected">Не подключен.</string>
-    <string name="accessibility_zero_bars">Нет сигнала.</string>
-    <string name="accessibility_one_bar">Одно деление.</string>
-    <string name="accessibility_two_bars">Два деления.</string>
-    <string name="accessibility_three_bars">Три деления.</string>
-    <string name="accessibility_signal_full">Полный сигнал.</string>
+    <string name="accessibility_not_connected">Не подключено</string>
+    <string name="accessibility_zero_bars">Нет сигнала</string>
+    <string name="accessibility_one_bar">одно деление</string>
+    <string name="accessibility_two_bars">два деления</string>
+    <string name="accessibility_three_bars">три деления</string>
+    <string name="accessibility_signal_full">надежный сигнал</string>
     <string name="accessibility_desc_on">Вкл.</string>
     <string name="accessibility_desc_off">Выкл.</string>
     <string name="accessibility_desc_connected">Подключено</string>
-    <string name="accessibility_desc_connecting">Подключение.</string>
+    <string name="accessibility_desc_connecting">Соединение.</string>
     <string name="accessibility_data_connection_gprs">GPRS</string>
     <string name="accessibility_data_connection_1x">1 X</string>
     <string name="accessibility_data_connection_hspa">HSPA</string>
     <string name="accessibility_data_connection_3g">3G</string>
-    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_3.5g">3,5G</string>
     <string name="accessibility_data_connection_4g">4G</string>
     <string name="accessibility_data_connection_lte">LTE</string>
     <string name="accessibility_data_connection_cdma">CDMA</string>
@@ -125,7 +124,8 @@
     <string name="accessibility_data_connection_wifi">Wi-Fi</string>
     <string name="accessibility_no_sim">SIM-карта отсутствует.</string>
     <string name="accessibility_bluetooth_tether">Bluetooth-модем</string>
-    <string name="accessibility_airplane_mode">Режим полёта.</string>
+    <string name="accessibility_airplane_mode">Режим полета.</string>
+    <string name="accessibility_battery_level">Процент %d заряда в аккумуляторе</string>
     <string name="accessibility_settings_button">Настройки</string>
     <string name="accessibility_notifications_button">Уведомления</string>
     <string name="accessibility_remove_notification">Удалить уведомление</string>
@@ -134,506 +134,414 @@
     <string name="accessibility_tty_enabled">Телетайп включен.</string>
     <string name="accessibility_ringer_vibrate">Вибровызов.</string>
     <string name="accessibility_ringer_silent">Беззвучный режим.</string>
-    <string name="accessibility_recents_item_will_be_dismissed">Удалить %s</string>
+    <string name="accessibility_recents_item_will_be_dismissed">Удаление приложения %s из списка.</string>
     <string name="accessibility_recents_item_dismissed">Приложение \"%s\" удалено из списка.</string>
-    <string name="accessibility_recents_item_launched">Запуск %s</string>
-    <string name="accessibility_notification_dismissed">Пропущенные уведомления.</string>
-    <string name="accessibility_desc_notification_shade">Панель уведомлений.</string>
-    <string name="accessibility_desc_quick_settings">Быстрая настройка.</string>
-    <string name="accessibility_desc_lock_screen">Экран блокировки.</string>
+    <string name="accessibility_recents_item_launched">Запуск приложения %s.</string>
+    <string name="accessibility_notification_dismissed">Уведомление закрыто</string>
+    <string name="accessibility_desc_notification_shade">Панель уведомлений</string>
+    <string name="accessibility_desc_quick_settings">Быстрые настройки</string>
+    <string name="accessibility_desc_lock_screen">Заблокированный экран.</string>
     <string name="accessibility_desc_settings">Настройки</string>
-    <string name="accessibility_desc_recent_apps">Недавние приложения</string>
-    <string name="accessibility_quick_settings_user">Пользователь: %s</string>
+    <string name="accessibility_desc_recent_apps">Обзор.</string>
+    <string name="accessibility_quick_settings_user">Пользователь %s</string>
     <string name="accessibility_quick_settings_wifi">%1$s.</string>
-    <string name="accessibility_quick_settings_wifi_changed_off">Wi-Fi выключен.</string>
-    <string name="accessibility_quick_settings_wifi_changed_on">Wi-Fi включен.</string>
-    <string name="accessibility_quick_settings_mobile">Мобильная сеть: %1$s, %2$s, %3$s.</string>
-    <string name="accessibility_quick_settings_battery">Заряд батареи: %s</string>
-    <string name="accessibility_quick_settings_airplane_off">Режим полета выключен.</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Модуль Wi-Fi отключен.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Модуль Wi-Fi включен.</string>
+    <string name="accessibility_quick_settings_mobile">Мобильная сеть: %3$s (%2$s, %1$s)</string>
+    <string name="accessibility_quick_settings_battery">Батарея: %s</string>
+    <string name="accessibility_quick_settings_airplane_off">Режим полета отключен.</string>
     <string name="accessibility_quick_settings_airplane_on">Режим полета включен.</string>
-    <string name="accessibility_quick_settings_airplane_changed_off">Режим полета выключен.</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">Режим полета отключен.</string>
     <string name="accessibility_quick_settings_airplane_changed_on">Режим полета включен.</string>
-    <string name="accessibility_quick_settings_data_off">Мобильные данные выкл.</string>
-    <string name="accessibility_quick_settings_data_on">Мобильные данные вкл.</string>
+    <string name="accessibility_quick_settings_data_off">Передача данных выкл.</string>
+    <string name="accessibility_quick_settings_data_on">Передача данных вкл.</string>
     <string name="accessibility_quick_settings_roaming_off">Роуминг выкл.</string>
     <string name="accessibility_quick_settings_roaming_on">Роуминг вкл.</string>
-    <string name="accessibility_quick_settings_bluetooth_off">Bluetooth выключен.</string>
-    <string name="accessibility_quick_settings_bluetooth_on">Bluetooth включен.</string>
-    <string name="accessibility_quick_settings_bluetooth_connecting">Bluetooth соединение.</string>
-    <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth подключен.</string>
-    <string name="accessibility_quick_settings_bluetooth_changed_off">Bluetooth выключен.</string>
-    <string name="accessibility_quick_settings_bluetooth_changed_on">Bluetooth включен.</string>
-    <string name="accessibility_quick_settings_location_off">Местоположение выкл.</string>
-    <string name="accessibility_quick_settings_location_on">Местоположение вкл.</string>
-    <string name="accessibility_quick_settings_location_changed_off">Местоположение выкл.</string>
-    <string name="accessibility_quick_settings_location_changed_on">Местоположение вкл.</string>
-    <string name="accessibility_quick_settings_alarm">Будильник устанавлен в: %s</string>
+    <string name="accessibility_quick_settings_bluetooth_off">Модуль Bluetooth отключен.</string>
+    <string name="accessibility_quick_settings_bluetooth_on">Модуль Bluetooth включен.</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">Bluetooth-соединение устанавливается.</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth-соединение установлено.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">Модуль Bluetooth отключен.</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">Модуль Bluetooth включен.</string>
+    <string name="accessibility_quick_settings_location_off">Отправка геоданных отключена.</string>
+    <string name="accessibility_quick_settings_location_on">Отправка геоданных включена.</string>
+    <string name="accessibility_quick_settings_location_changed_off">Отправка геоданных отключена.</string>
+    <string name="accessibility_quick_settings_location_changed_on">Отправка геоданных включена.</string>
+    <string name="accessibility_quick_settings_alarm">Будильник установлен на %s</string>
     <string name="accessibility_quick_settings_close">Закрыть панель.</string>
-    <string name="accessibility_quick_settings_more_time">Еще время.</string>
-    <string name="accessibility_quick_settings_less_time">Меньше время.</string>
-    <string name="accessibility_quick_settings_flashlight_off">Фонарик выкл.</string>
-    <string name="accessibility_quick_settings_flashlight_on">Фонарик выкл.</string>
-    <string name="accessibility_quick_settings_flashlight_changed_off">Фонарик выключен.</string>
+    <string name="accessibility_quick_settings_more_time">Увеличить время.</string>
+    <string name="accessibility_quick_settings_less_time">Уменьшить время.</string>
+    <string name="accessibility_quick_settings_flashlight_off">Фонарик отключен.</string>
+    <string name="accessibility_quick_settings_flashlight_on">Фонарик включен.</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">Фонарик отключен.</string>
     <string name="accessibility_quick_settings_flashlight_changed_on">Фонарик включен.</string>
-    <string name="accessibility_quick_settings_color_inversion_changed_off">Инверсия цвета выключена.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">Инверсия цвета отключена.</string>
     <string name="accessibility_quick_settings_color_inversion_changed_on">Инверсия цвета включена.</string>
-    <string name="accessibility_quick_settings_hotspot_changed_off">Мобильная Точка был выключена.</string>
-    <string name="accessibility_quick_settings_hotspot_changed_on">Мобильная Точка включена.</string>
-    <string name="accessibility_casting_turned_off">Проекционный экран остановлен.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">Точка доступа отключена.</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">Точка доступа включена.</string>
+    <string name="accessibility_casting_turned_off">Трансляция прекращена.</string>
     <string name="accessibility_brightness">Яркость экрана</string>
-    <string name="data_usage_disabled_dialog_3g_title">Сеть передачи данных 2G-3G выключена</string>
-    <string name="data_usage_disabled_dialog_4g_title">Передача данных по каналу 4G отключена</string>
-    <string name="data_usage_disabled_dialog_mobile_title">Мобильный Интернет отключен</string>
+    <string name="data_usage_disabled_dialog_3g_title">Передача данных 2G/3G отключена</string>
+    <string name="data_usage_disabled_dialog_4g_title">Передача данных 4G отключена</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Передача мобильных данных отключена</string>
     <string name="data_usage_disabled_dialog_title">Передача данных отключена</string>
-    <string name="data_usage_disabled_dialog">"Достигнут лимит трафика.
+    <string name="data_usage_disabled_dialog">"Передача данных отключена, поскольку достигнут установленный вами лимит.
 
-При восстановлении подключения оператор может взимать плату за передачу данных."</string>
-    <string name="data_usage_disabled_dialog_enable">Восстановить подключение</string>
+Вы можете снова включить ее, однако за переданные данные оператор может взимать дополнительную плату."</string>
+    <string name="data_usage_disabled_dialog_enable">Включить передачу данных</string>
     <string name="status_bar_settings_signal_meter_disconnected">Нет интернет-подключения</string>
     <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi подключено</string>
     <string name="gps_notification_searching_text">Поиск GPS</string>
     <string name="gps_notification_found_text">Координаты по GPS</string>
     <string name="accessibility_location_active">Есть активные запросы на определение местоположения</string>
-    <string name="accessibility_clear_all">Удалить все уведомления.</string>
+    <string name="accessibility_clear_all">Удалить все уведомления</string>
     <string name="status_bar_notification_inspect_item_title">Настройки уведомлений</string>
-    <string name="status_bar_notification_app_settings_title">Настройки %s</string>
+    <string name="status_bar_notification_app_settings_title">Настройки приложения \"%s\"</string>
     <string name="accessibility_rotation_lock_off">Экран будет поворачиваться автоматически.</string>
     <string name="accessibility_rotation_lock_on_landscape">Выбрана только альбомная ориентация экрана.</string>
     <string name="accessibility_rotation_lock_on_portrait">Выбрана только книжная ориентация экрана.</string>
-    <string name="accessibility_rotation_lock_off_changed">Экран будет поворачиваться автоматически.</string>
-    <string name="accessibility_rotation_lock_on_landscape_changed">Выбрана только альбомная ориентация экрана.</string>
-    <string name="accessibility_rotation_lock_on_portrait_changed">Выбрана только книжная ориентация экрана.</string>
-    <string name="dessert_case">Dessert Case</string>
-    <string name="start_dreams">Интерактивная заставка</string>
-    <string name="ethernet_label">Сеть</string>
+    <string name="accessibility_rotation_lock_off_changed">Автоповорот экрана включен.</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">Экран зафиксирован в горизонтальном положении.</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">Экран зафиксирован в вертикальном положении.</string>
+    <string name="dessert_case">Коробка со сладостями</string>
+    <string name="start_dreams">Заставка</string>
+    <string name="ethernet_label">Ethernet</string>
     <string name="quick_settings_airplane_mode_label">Режим полета</string>
-    <string name="quick_settings_mobile_data_label">Мобильные данные</string>
-    <string name="quick_settings_mobile_data_label_1">Мобильные данные 1</string>
-    <string name="quick_settings_mobile_data_label_2">Мобильные данные 2</string>
-    <string name="quick_settings_roaming_label">Роуминг данных</string>
-    <string name="quick_settings_battery_charging_label">Зарядка: %d%%</string>
-    <string name="quick_settings_battery_charged_label">Зарядка завершена</string>
+    <string name="quick_settings_mobile_data_label">Моб. трафик</string>
+    <string name="quick_settings_roaming_label">Роуминг</string>
+    <string name="quick_settings_battery_charging_label">%d%%</string>
+    <string name="quick_settings_battery_charged_label">100%%</string>
     <string name="quick_settings_bluetooth_label">Bluetooth</string>
-    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d устройства)</string>
-    <string name="quick_settings_bluetooth_off_label">Bluetooth: выкл.</string>
-    <string name="quick_settings_bluetooth_detail_empty_text">Сопряженные устройства не доступны</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth выкл.</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">Нет доступных подключенных устройств</string>
     <string name="quick_settings_brightness_label">Яркость</string>
     <string name="quick_settings_rotation_unlocked_label">Автоповорот</string>
-    <string name="quick_settings_rotation_locked_label">Автоповорот выкл.</string>
-    <string name="quick_settings_rotation_locked_portrait_label">Книжная</string>
-    <string name="quick_settings_rotation_locked_landscape_label">Альбомная</string>
-    <string name="quick_settings_ime_label">Метод ввода</string>
-    <string name="quick_settings_location_label">GPS позиционирование</string>
+    <string name="quick_settings_rotation_locked_label">Автоповорот отключен</string>
+    <string name="quick_settings_rotation_locked_portrait_label">Вертикальная ориентация</string>
+    <string name="quick_settings_rotation_locked_landscape_label">Горизонтальная ориентация</string>
+    <string name="quick_settings_ime_label">Способ ввода</string>
+    <string name="quick_settings_location_label">Передача геоданных</string>
     <string name="quick_settings_location_off_label">Местоположение выкл.</string>
     <string name="quick_settings_media_device_label">Режим медиа</string>
     <string name="quick_settings_rssi_label">RSSI</string>
-    <string name="quick_settings_rssi_emergency_only">Только экстренные вызовы</string>
+    <string name="quick_settings_rssi_emergency_only">Экстр. вызов</string>
     <string name="quick_settings_settings_label">Настройки</string>
     <string name="quick_settings_time_label">Время</string>
-    <string name="quick_settings_user_label">Я</string>
+    <string name="quick_settings_user_label">Вы</string>
     <string name="quick_settings_user_title">Пользователь</string>
     <string name="quick_settings_user_new_user">Новый пользователь</string>
     <string name="quick_settings_wifi_label">Wi-Fi</string>
     <string name="quick_settings_wifi_not_connected">Нет соединения</string>
     <string name="quick_settings_wifi_no_network">Нет сети</string>
-    <string name="quick_settings_wifi_off_label">Wi-Fi: выкл.</string>
-    <string name="quick_settings_wifi_detail_empty_text">Сохраненные сети не доступны</string>
-    <string name="quick_settings_cast_title">Проекционный экран</string>
-    <string name="quick_settings_casting">Показ</string>
-    <string name="quick_settings_cast_device_default_name">Безымянные оборудование</string>
-    <string name="quick_settings_cast_device_default_description">Готов к показу</string>
-    <string name="quick_settings_cast_detail_empty_text">Нет доступного оборудования</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi выкл.</string>
+    <string name="quick_settings_wifi_detail_empty_text">Нет доступных сохраненных сетей</string>
+    <string name="quick_settings_cast_title">Передать изображение экрана</string>
+    <string name="quick_settings_casting">Передача изображения</string>
+    <string name="quick_settings_cast_device_default_name">Безымянное устройство</string>
+    <string name="quick_settings_cast_device_default_description">Готово к передаче</string>
+    <string name="quick_settings_cast_detail_empty_text">Нет доступных устройств</string>
     <string name="quick_settings_brightness_dialog_title">Яркость</string>
     <string name="quick_settings_brightness_dialog_auto_brightness_label">АВТОНАСТРОЙКА</string>
-    <string name="quick_settings_apn_switch_label">Переключатель APN</string>
-    <string name="quick_settings_inversion_label">Инвертировать цвета</string>
-    <string name="quick_settings_color_space_label">Режим цветокоррекция</string>
+    <string name="quick_settings_apn_switch_label">APN переключатель</string>
+    <string name="quick_settings_inversion_label">Инвертировать</string>
+    <string name="quick_settings_color_space_label">Коррекция цвета</string>
     <string name="quick_settings_more_settings">Дополнительные настройки</string>
-    <string name="quick_settings_done">Осуществлять</string>
+    <string name="quick_settings_done">Готово</string>
     <string name="quick_settings_connected">Подключено</string>
-    <string name="quick_settings_connecting">Подключение...</string>
-    <string name="quick_settings_tethering_label">Модем</string>
+    <string name="quick_settings_connecting">Соединение...</string>
+    <string name="quick_settings_tethering_label">Режим модема</string>
     <string name="quick_settings_hotspot_label">Точка доступа</string>
     <string name="quick_settings_notifications_label">Уведомления</string>
     <string name="quick_settings_flashlight_label">Фонарик</string>
     <string name="quick_settings_cellular_detail_title">Передача данных</string>
-    <string name="quick_settings_cellular_detail_data_usage">Использование трафика</string>
-    <string name="quick_settings_cellular_detail_remaining_data">Остальные данные</string>
-    <string name="quick_settings_cellular_detail_over_limit">Достигнут предел - использование данных приостановлено</string>
-    <string name="quick_settings_cellular_detail_data_used">Использовано %s</string>
-    <string name="quick_settings_cellular_detail_data_limit">Верхний предел %s</string>
-    <string name="quick_settings_cellular_detail_data_warning">%s предупреждение</string>
-    <string name="quick_settings_dds_sub">%d карта данных</string>
-    <string name="quick_settings_data_off">Данные выкл.</string>
-    <string name="recents_empty_message">Здесь отображаются ваши последние экраны</string>
-    <string name="recents_app_info_button_label">Информация о приложении</string>
-    <string name="recents_lock_to_app_button_label">Блокировка приложения</string>
-    <string name="recents_search_bar_label">Поиск</string>
-    <string name="recents_launch_error_message">Не возможно запустить %s</string>
-    <string name="expanded_header_battery_charged">Зарядка завершена</string>
-    <string name="expanded_header_battery_charging">Зарядка</string>
-    <string name="expanded_header_battery_charging_with_time">%s до полной</string>
+    <string name="quick_settings_cellular_detail_data_usage">Передача данных</string>
+    <string name="quick_settings_cellular_detail_remaining_data">Остается данных</string>
+    <string name="quick_settings_cellular_detail_over_limit">Достигнут лимит, передача данных приостановлена</string>
+    <string name="quick_settings_cellular_detail_data_used">Использовано: %s</string>
+    <string name="quick_settings_cellular_detail_data_limit">Ограничение: %s</string>
+    <string name="quick_settings_cellular_detail_data_warning">Предупреждение: %s</string>
+    <string name="quick_settings_dds_sub">Карта %d данные</string>
+    <string name="quick_settings_data_off">Передача данных выкл.</string>
+    <string name="recents_empty_message">Здесь будут показаны недавние приложения</string>
+    <string name="recents_app_info_button_label">Сведения о приложении</string>
+    <string name="recents_lock_to_app_button_label">Блокировать в приложении</string>
+    <string name="recents_search_bar_label">поиск</string>
+    <string name="recents_launch_error_message">Не удалось запустить приложение \"%s\"</string>
+    <string name="expanded_header_battery_charged">Батарея заряжена</string>
+    <string name="expanded_header_battery_charging">Зарядка батареи</string>
+    <string name="expanded_header_battery_charging_with_time">%s до полной зарядки</string>
     <string name="expanded_header_battery_not_charging">Не заряжается</string>
-    <string name="ssl_ca_cert_warning">«Сеть может контролироваться»</string>
+    <string name="ssl_ca_cert_warning">"Действия в сети
+могут отслеживаться"</string>
     <string name="description_target_search">Поиск</string>
-    <string name="description_direction_up">Проведите пальцем вверх, чтобы %s</string>
-    <string name="description_direction_left">Проведите пальцем влево, чтобы %s</string>
-    <string name="zen_no_interruptions_with_warning">Не беспокоить (даже не выдается напоминание будильника).</string>
+    <string name="description_direction_up">Проведите вверх, чтобы %s.</string>
+    <string name="description_direction_left">Проведите влево, чтобы %s.</string>
+    <string name="zen_no_interruptions_with_warning">Никаких оповещений, даже от будильника.</string>
     <string name="zen_no_interruptions">Не беспокоить</string>
-    <string name="zen_important_interruptions">Только приоритетные беспокоить содержание</string>
-    <string name="zen_alarm_information_time">В следующий раз зазвучит сигнал будильника: %s</string>
-    <string name="zen_alarm_information_day_time">В следующий раз зазвучит сигнал будильника: %s</string>
-    <string name="zen_alarm_warning">Вы не услышите сигнал будильника в %s</string>
+    <string name="zen_important_interruptions">Только важные оповещения</string>
+    <string name="zen_alarm_information_time">Следующий будильник: %s</string>
+    <string name="zen_alarm_information_day_time">Следующий будильник: %s</string>
+    <string name="zen_alarm_warning">Следующий будильник: %s. Звук отключен.</string>
     <string name="keyguard_more_overflow_text">+%d</string>
-    <string name="speed_bump_explanation">Менее срочное уведомление будет отображаться ниже</string>
-    <string name="notification_tap_again">Нажмите еще раз, чтобы открыть</string>
-    <string name="keyguard_unlock">Сдвиньте вверх, чтобы разблокировать</string>
-    <string name="phone_hint">Сдвиньте вправо, чтобы открыть интерфейс набора номера</string>
-    <string name="camera_hint">Сдвиньте влево, чтобы открыть камеру</string>
-    <string name="interruption_level_none">Нет</string>
-    <string name="interruption_level_priority">Приоритет</string>
+    <string name="speed_bump_explanation">Показать менее важные оповещения</string>
+    <string name="notification_tap_again">Нажмите ещё раз, чтобы открыть</string>
+    <string name="keyguard_unlock">Для разблокировки проведите пальцем по экрану</string>
+    <string name="phone_hint">Чтобы открыть приложение \"Телефон\", пролистните вправо</string>
+    <string name="camera_hint">Чтобы включить камеру, пролистните влево</string>
+    <string name="interruption_level_none">Не беспокоить</string>
+    <string name="interruption_level_priority">Важные</string>
     <string name="interruption_level_all">Все</string>
-    <string name="keyguard_indication_charging_time">Зарядка (необходимо %s до полного)</string>
-    <string name="accessibility_multi_user_switch_switcher">Смена пользователя</string>
-    <string name="accessibility_multi_user_switch_switcher_with_current">Сменить пользователя, текущий пользователь %s</string>
-    <string name="accessibility_multi_user_switch_quick_contact">Показать Профиль</string>
-    <string name="user_add_user">Добавление пользователей</string>
+    <string name="keyguard_indication_charging_time">Зарядка батареи (осталось %s)</string>
+    <string name="accessibility_multi_user_switch_switcher">Сменить пользователя.</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">Сменить аккаунт. Вход выполнен под именем %s.</string>
+    <string name="accessibility_multi_user_switch_quick_contact">Показать профиль.</string>
+    <string name="user_add_user">Добавить пользователя</string>
     <string name="user_new_user_name">Новый пользователь</string>
-    <string name="guest_nickname">Гости</string>
+    <string name="guest_nickname">Гость</string>
     <string name="guest_new_guest">Добавить гостя</string>
-    <string name="guest_exit_guest">Удалить гостя</string>
-    <string name="guest_exit_guest_dialog_title">Удалить гостя?</string>
-    <string name="guest_exit_guest_dialog_message">В этой сессии все приложения и данные будут удалены.</string>
+    <string name="guest_exit_guest">Удалить аккаунт гостя</string>
+    <string name="guest_exit_guest_dialog_title">Удалить аккаунт гостя?</string>
+    <string name="guest_exit_guest_dialog_message">Все приложения и данные этого профиля будут удалены.</string>
     <string name="guest_exit_guest_dialog_remove">Удалить</string>
-    <string name="guest_wipe_session_title">Гость, добро пожаловать!</string>
-    <string name="guest_wipe_session_message">Чтобы продолжить сеанс?</string>
-    <string name="guest_wipe_session_wipe">Перезапуск</string>
-    <string name="guest_wipe_session_dontwipe">Да, по-прежнему</string>
-    <string name="user_add_user_title">Добавить нового пользователя?</string>
-    <string name="user_add_user_message_short">"Когда вы добавляете нового пользователя, пользователь должен установить свое собственное пространство.
-Любой пользователь может обновить приложение для всех остальных пользователей."</string>
-    <string name="battery_saver_notification_title">Помощник энергосбережения</string>
-    <string name="battery_saver_notification_text">К снижению производительности и ограничению фонового трафика</string>
-    <string name="battery_saver_notification_action_text">Закрыть помощник энергосбережения</string>
-    <string name="battery_level_template">%d %%</string>
-    <string name="notification_hidden_text">Скрытый контент</string>
-    <string name="media_projection_dialog_text">%s начнет перехватывать все содержимое, отображаемое на экране.</string>
-    <string name="media_projection_remember_text">больше не отображается</string>
+    <string name="guest_wipe_session_title">Рады видеть вас снова!</string>
+    <string name="guest_wipe_session_message">Продолжить сеанс?</string>
+    <string name="guest_wipe_session_wipe">Начать заново</string>
+    <string name="guest_wipe_session_dontwipe">Да, продолжить</string>
+    <string name="user_add_user_title">Добавить пользователя?</string>
+    <string name="user_add_user_message_short">"После создания профиля его необходимо настроить.
+
+Обновлять приложения для всех аккаунтов может любой пользователь устройства."</string>
+    <string name="battery_saver_notification_title">Включен режим энергосбережения</string>
+    <string name="battery_saver_notification_text">Откл. фоновой передачи данных</string>
+    <string name="battery_saver_notification_action_text">Отключить режим энергосбережения</string>
+    <string name="battery_level_template">%d%%</string>
+    <string name="notification_hidden_text">Содержимое скрыто</string>
+    <string name="media_projection_dialog_text">Приложение %s получит доступ к изображению на экране устройства.</string>
+    <string name="media_projection_remember_text">Больше не показывать</string>
     <string name="clear_all_notifications_text">Очистить все</string>
-    <string name="media_projection_action_text">Начните сразу</string>
-    <string name="empty_shade_text">Без предварительного уведомления</string>
-    <string name="tasklistview_title">Диспетчер задач</string>
-    <string name="message_switch_fail">Невозможно переключиться на этой задаче, интерфейс не существует!</string>
-    <string name="tasklist_killall">Снять все</string>
-    <string name="tasklist_memory_usage" formatted="false">Оставшиеся / общий объем памяти: [ %s] / [ %s]</string>
-    <string name="message_keep_one_launcher">Оставьте по крайней мере домашний экран рабочего стола!</string>
-    <string name="device_owned_footer">Оборудование может контролироваться</string>
-    <string name="profile_owned_footer">Информация может быть объектом мониторинга</string>
-    <string name="vpn_footer">Сеть может контролироваться</string>
-    <string name="monitoring_title_device_owned">Мониторинг оборудования</string>
-    <string name="monitoring_title_profile_owned">Мониторинг данных</string>
-    <string name="monitoring_title">Мониторинг сети</string>
-    <string name="disable_vpn">Закрыть VPN</string>
-    <string name="disconnect_vpn">Отключите соединение VPN</string>
-    <string name="monitoring_description_device_owned">"Это устройство осуществляется с помощью следующих элементов
- %1$s
+    <string name="media_projection_action_text">Начать</string>
+    <string name="empty_shade_text">Нет уведомлений</string>
+    <string name="tasklistview_title">"Диспетчер
+задач"</string>
+    <string name="message_switch_fail">Не удается переключиться на эту задачу, потому что нет интерфейса.</string>
+    <string name="tasklist_killall">Завершить все</string>
+    <string name="tasklist_memory_usage" formatted="false">Свободная/Всего Памяти: [%s] / [%s]</string>
+    <string name="message_keep_one_launcher">Должно содержать по крайней мере одну активность!</string>
+    <string name="device_owned_footer">Устройство может контролироваться</string>
+    <string name="profile_owned_footer">Действия в профиле могут отслеживаться</string>
+    <string name="vpn_footer">Сеть может отслеживаться</string>
+    <string name="monitoring_title_device_owned">Отслеживание устройств</string>
+    <string name="monitoring_title_profile_owned">Мониторинг профиля</string>
+    <string name="monitoring_title">Отслеживание сетей</string>
+    <string name="disable_vpn">Отключить VPN</string>
+    <string name="disconnect_vpn">Отключить VPN</string>
+    <string name="monitoring_description_device_owned">"Этим устройством управляет организация:
+%1$s
 
+Администратор может отслеживать ваши действия в Интернете, включая работу с электронной почтой, приложениями и защищенными веб-сайтами.
 
+За дополнительной информацией обратитесь к администратору."</string>
+    <string name="monitoring_description_vpn">"Вы разрешили приложению \"%1$s\" подключаться к сети VPN.
 
-Администратор может контролировать свои устройства и сети деятельности, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла.
+Это приложение может отслеживать использование устройства и ваши действия в Интернете, включая работу с электронной почтой, приложениями и защищенными веб-сайтами."</string>
+    <string name="monitoring_description_legacy_vpn">"Устройство подключено к сети VPN (%1$s).
 
+Поставщик услуг VPN может отслеживать ваши действия в Интернете, включая работу с электронной почтой, приложениями и защищенными веб-сайтами."</string>
+    <string name="monitoring_description_vpn_device_owned">"Этим устройством управляет организация:
+%1$s
 
-Чтобы узнать больше, пожалуйста, обратитесь к администратору. "</string>
-    <string name="monitoring_description_vpn">"Вы дали разрешение %1$s »Настройка соединения VPN. Это приложение может контролировать свои устройства и сети деятельности, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла. "</string>
-    <string name="monitoring_description_legacy_vpn">"Вы должны подключиться к VPN ( %1$s »). Ваше VPN провайдер может контролировать свои устройства и сети деятельности, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла. "</string>
-    <string name="monitoring_description_vpn_device_owned">"Это устройство осуществляется с помощью следующих элементов:
- %1$s
+Администратор может отслеживать вашу работу с электронной почтой, приложениями и защищенными веб-сайтами. Обратитесь к нему за дополнительной информацией.
 
-Администратор может отслеживать сетевую активность, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла. Чтобы узнать больше, пожалуйста, обратитесь к администратору.
+Ваши действия в сети также доступны приложению \"%2$s\", которому вы разрешили подключаться к сети VPN."</string>
+    <string name="monitoring_description_legacy_vpn_device_owned">"Этим устройством управляет организация:
+%1$s
 
-Кроме того, вы дали разрешение  %2$s установить соединение VPN. Это приложение может также контролировать сетевую активность. "</string>
-    <string name="monitoring_description_legacy_vpn_device_owned">"Это устройство осуществляется с помощью следующих элементов:
- %1$s
+Администратор может отслеживать вашу работу с электронной почтой, приложениями и защищенными веб-сайтами. Обратитесь к нему за дополнительной информацией.
 
-Администратор может отслеживать сетевую активность, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла. Чтобы узнать больше, пожалуйста, обратитесь к администратору.
+Устройство подключено к сети VPN (%2$s). Ваши действия также доступны поставщику услуг VPN."</string>
+    <string name="monitoring_description_profile_owned">"Этим профилем управляет организация:
+%1$s
 
-Кроме того, вы можете подключиться к VPN ( %2$s»). Ваш поставщик услуг VPN также может отслеживать сетевую активность. "</string>
-    <string name="monitoring_description_profile_owned">"Эта информация находится в ведении следующих блоков:
- %1$s
+Администратор может отслеживать ваши действия в Интернете, включая работу с электронной почтой, приложениями и защищенными веб-сайтами.
 
-Администратор может контролировать свои устройства и сети деятельности, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла.
+За дополнительной информацией обращайтесь к администратору."</string>
+    <string name="monitoring_description_device_and_profile_owned">"Устройством управляет организация:
+%1$s
+Вашим профилем управляет организация:
+%2$s
 
-Чтобы узнать больше, пожалуйста, обратитесь к администратору. "</string>
-    <string name="monitoring_description_device_and_profile_owned">"Это устройство осуществляется с помощью следующих элементов:
- %1$
-Данные осуществляется с помощью следующих элементов:
- %2$s
+Администратор может отслеживать ваши действия в Интернете, включая работу с электронной почтой, приложениями и защищенными веб-сайтами.
 
-Администратор может контролировать свои устройства и сети деятельности, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла.
+За дополнительной информацией обращайтесь к администратору."</string>
+    <string name="monitoring_description_vpn_profile_owned">"Этим профилем управляет организация:
+%1$s
 
-Чтобы узнать больше, пожалуйста, обратитесь к администратору. "</string>
-    <string name="monitoring_description_vpn_profile_owned">"Эта информация находится в ведении следующих блоков:
- %1$s
+Администратор может отслеживать ваши действия в Интернете, включая работу с эл. почтой, приложениями и защищенными веб-сайтами. Обратитесь к нему за дополнительной информацией.
 
-Администратор может отслеживать сетевую активность, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла. Чтобы узнать больше, пожалуйста, обратитесь к администратору.
+Вы разрешили приложению \"%2$s\" подключаться к VPN, и ему также доступны эти сведения."</string>
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Этим профилем управляет организация:
+%1$s
 
-Кроме того, вы дали разрешение  %2$s установить соединение VPN. Это приложение может также контролировать сетевую активность. "</string>
-    <string name="monitoring_description_legacy_vpn_profile_owned">"Эта информация находится в ведении следующих блоков:
- %1$s
+Администратор может отслеживать ваши действия в Сети, включая работу с эл. почтой, приложениями и защищенными веб-сайтами Обратитесь к нему за дополнительной информацией.
 
-Администратор может отслеживать сетевую активность, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла. Чтобы узнать больше, пожалуйста, обратитесь к администратору.
+Устройство подключено к сети VPN (%2$s). Поставщику услуг VPN также видны ваши действия в Сети."</string>
+    <string name="monitoring_description_vpn_device_and_profile_owned">"Устройством управляет организация:
+%1$s
+Вашим профилем управляет организация:
+%2$s
 
-Кроме того, вы можете подключиться к VPN ( %2$s»). Ваш поставщик услуг VPN также может отслеживать сетевую активность. "</string>
-    <string name="monitoring_description_vpn_device_and_profile_owned">"Это устройство осуществляется с помощью следующих элементов:
- %1$
-Данные осуществляется с помощью следующих элементов:
- %2$s
+Администратор может отслеживать вашу работу с эл. почтой, приложениями и защищенными веб-сайтами. Обратитесь к нему за дополнительной информацией.
 
-Администратор может отслеживать сетевую активность, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла. Чтобы узнать больше, пожалуйста, обратитесь к администратору.
+Вы разрешили приложению \"%3$s\" подключаться к VPN, и ему также доступны эти сведения."</string>
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Устройством управляет организация:
+%1$s
+Вашим профилем управляет организация:
+%2$s
 
-Кроме того, вы дали разрешение  %3$s установить соединение VPN. Это приложение может также контролировать сетевую активность. "</string>
-    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Это устройство осуществляется с помощью следующих элементов:
- %1$
-Данные осуществляется с помощью следующих элементов:
- %2$s
+Администратор может отслеживать вашу работу с почтой, приложениями и защищенными веб-сайтами. Обратитесь к нему за дополнительной информацией.
 
-Администратор может отслеживать сетевую активность, в том числе по электронной почте, используя приложение и просмотреть безопасного веб-узла. Чтобы узнать больше, пожалуйста, обратитесь к администратору.
-
-Кроме того, вы можете подключиться к VPN ( %3$s»). Ваш поставщик услуг VPN также может отслеживать сетевую активность. "</string>
-    <string name="keyguard_indication_trust_disabled">Прежде чем вручную разблокировать устройство останется заблокированным</string>
-    <string name="hidden_notifications_title">Смотреть более быстро заметите,</string>
-    <string name="hidden_notifications_text">Вы можете просмотреть уведомления без разблокировки</string>
-    <string name="hidden_notifications_cancel">Нет,</string>
-    <string name="hidden_notifications_setup">Установить</string>
-    <string name="muted_by">%1$s был приглушен</string>
-    <string name="zen_mode_and_condition">%1$s ( %2$s)</string>
-    <string name="email_note">Печать</string>
-    <string name="mms_note">Статья</string>
-    <string name="phone_note">Месяцы</string>
-    <string name="phone_content">Пропущенные вызовы</string>
-    <string name="screen_saver_title">Карманный Anti случайно режим</string>
-    <string name="screen_saver_message">Не прикасайтесь к верхней части телефона</string>
-    <string name="screen_saver_force_quite">Force Quit: Нажмите Volume - и возвращение</string>
-    <string name="settings_low_battery_title">Мощность напомнить</string>
-    <string name="settings_low_battery_message">БАТАРЕИ 40%, не заряжается, не мог нести его завтра.</string>
-    <string name="low_battery_toast">Низкий уровень заряда батареи, телефон вот-вот выключится.</string>
-    <string name="ic_qs_wifi">WLAN</string>
-    <string name="ic_qs_bluetooth">Bluetooth</string>
-    <string name="ic_qs_gps">GPS</string>
-    <string name="ic_qs_mobile">Mobile Data</string>
-    <string name="ic_qs_syn">Синхронный</string>
-    <string name="ic_qs_auto">Яркость</string>
-    <string name="ic_qs_sync">Синхронный</string>
-    <string name="ic_qs_rotation">Автоматическое включение экрана</string>
-    <string name="ic_qs_motion">Volley жест</string>
-    <string name="ic_qs_ringer">Бесшумный режим</string>
-    <string name="ic_qs_vibrate">Вибрация</string>
-    <string name="ic_qs_mute">Бесшумный режим</string>
-    <string name="ic_qs_airplane">Режим полета</string>
-    <string name="ic_qs_saving">Энергосберегающие режим</string>
-    <string name="ic_qs_pocket">Режим Карманный</string>
-    <string name="ic_qs_meeting">Режим конференция</string>
-    <string name="ic_qs_sleeping">Спящий режим</string>
-    <string name="ic_qs_visitor">Гостевой режим</string>
-    <string name="ic_qs_brightness">Яркость</string>
-    <string name="ic_qs_wificast">Проекционный экран</string>
-    <string name="ic_qs_clear">Ключ для удаления</string>
-    <string name="ic_qs_sort">Последовательность</string>
-    <string name="ic_qs_settings">Установить</string>
-    <string name="ic_qs_lockscreen">Экран блокировки клавиш</string>
-    <string name="ic_qs_screenprojector">Проекционный экран</string>
-    <string name="ic_qs_splitscreen">Режим разделенного экрана</string>
-    <string name="ic_qs_undisturb">Есть режим не беспокоить</string>
-    <string name="arrange_title_name">Редактировать быстрый переход</string>
-    <string name="toast_memory_clear">Все фоновые приложения закрыты</string>
-    <string name="close_single_toast">Режим одной руки выключен</string>
-    <string name="close_single_text">Под государство поворот экрана не может использовать одной рукой режим, будет закрыта одной рукой переключатель режимов</string>
-    <string name="status_bar_setting_lockscreen">Экран блокировки</string>
-    <string name="status_bar_setting_notification">Панель уведомлений</string>
-    <string name="status_bar_setting_miss">Мисс событие</string>
-    <string name="status_bar_setting_miss_sub">В замке экран пропущенных вызовов, непрочитанных сообщений</string>
-    <string name="status_bar_setting_app_lockscreen">Сообщение Блокировка экрана приложения</string>
-    <string name="status_bar_setting_app_lockscreen_sub">Выберите блокировка приложения Сообщение на экране отображается в</string>
-    <string name="status_bar_setting_app_notification">Применение панель уведомлений сообщение</string>
-    <string name="status_bar_setting_app_notification_sub">Выберите приложение отображает сообщение в строке уведомлений</string>
-    <string name="statusbar_netspeed_display">Скорость сети в режиме реального времени</string>
-    <string name="statusbar_netspeed_desc">В строке состояния отображается текущая скорость сети</string>
-    <string name="status_bar_shortcuts">Быстрое переключение</string>
-    <string name="status_bar_activity_name">Панель уведомлений</string>
-    <string name="statusbar_settings">Уведомление центр</string>
-    <string name="rotation_single_title">Подсказка</string>
-    <string name="close_rotation_text">Одной рукой не может вращаться режим экрана, экран выключается поворотный переключатель</string>
-    <string name="rotation_single_checkbox_text">Не подскажете</string>
-    <string name="rotation_single_cancel">Отменить</string>
-    <string name="rotation_single_ok">Определять</string>
-    <string name="split_close_single_text">Государство экране не могут быть использованы с одной ручном режиме, будет закрыта одной рукой переключатель режимов</string>
-    <string name="nubia_rencent_left">Избыток</string>
-    <string name="guide_close">Я знаю</string>
-    <string name="white_service_list_guide_tips">Вы можете положить фоновая служба белый список, чтобы предотвратить его от убийство</string>
-    <string name="reset_service_white_list">Сбросить белый список</string>
-    <string name="more_options">Больше</string>
-    <string name="reset_service_white_list_conform">Эта услуга будет удален из белого списка, в следующий раз вы используете функциональную клавишу для четкой корреляции может вызвать дисфункцию, стоит ли продолжать?</string>
-    <string name="reset_service_white_list_tips">Сбросить белый список служб?</string>
-    <string name="service_white_alert_dialog_title">Подсказка</string>
-    <string name="service_white_list_confirm">Если услуга будет восстановлена ​​вернуться к первоначальному умолчанию?</string>
-    <string name="service_white_list_reset_dilaog_title">Сброс</string>
-    <string name="service_white_list_title">Белый список служб</string>
-    <string name="no_running_services">Службы в настоящее время не работают.</string>
-    <string name="settings_safetylegal_activity_loading">Загрузка...</string>
-    <string name="service_started_by_app">Служба запущена.</string>
-    <string name="running_processes_item_description_s_s">%1$d процесс и %2$d служба</string>
-    <string name="running_processes_item_description_s_p">%1$d процессов и %2$d служб</string>
-    <string name="running_processes_item_description_p_s">%1$d процесс и %2$d служба</string>
-    <string name="running_processes_item_description_p_p">%1$d процессов и %2$d служб</string>
-    <string name="running_process_item_user_label">Пользователь: %1$s</string>
-    <string name="cached">Кэшированный фоновый процесс</string>
-    <string name="lockscreen_app_list_title">Ярлыки</string>
-    <string name="switch_sim_caution_title">Предупреждение использования данных</string>
-    <string name="switch_sim_caution_message">SIM-карта%d достигла порога предупреждения, переключить на другую SIM-карту для серфинга?</string>
-    <string name="zen_mode_exit">Выход</string>
-    <string name="zen_mode_time_one">1 час</string>
-    <string name="zen_mode_time_four">4 часов</string>
-    <string name="zen_mode_time_eight">8 часов</string>
-    <string name="zen_mode_time_forever">Всегда</string>
-    <string name="date_format">EEEE, d MMMM</string>
-    <string name="app_name">Блокировка клавиатуры</string>
+Устройство подключено к сети VPN (%3$s). Поставщику услуг VPN видны ваши действия в Сети."</string>
+    <string name="keyguard_indication_trust_disabled">Устройство необходимо будет разблокировать вручную</string>
+    <string name="hidden_notifications_title">Быстрый доступ к уведомлениям</string>
+    <string name="hidden_notifications_text">Просматривайте уведомления на заблокированном экране.</string>
+    <string name="hidden_notifications_cancel">Закрыть</string>
+    <string name="hidden_notifications_setup">Настроить</string>
+    <string name="muted_by">Звук отключен приложением \"%1$s\"</string>
+    <string name="zen_mode_and_condition">%1$s. %2$s.</string>
+    <string name="app_name">Keyguard</string>
     <string name="keyguard_password_enter_pin_code">Введите PIN-код</string>
-    <string name="keyguard_password_enter_puk_code">Пожалуйста, введите код PUK телефонные карточки и новый PIN-код</string>
-    <string name="keyguard_password_enter_puk_prompt">Телефонные карточки PUK код</string>
-    <string name="keyguard_password_enter_pin_prompt">Новой телефонной карты PIN-код</string>
-    <string name="keyguard_password_entry_touch_hint">&lt;Размер шрифта = 17> Нажмите, чтобы ввести пароль &lt;/ FONT></string>
-    <string name="keyguard_password_enter_password_code">Введите пароль, чтобы разблокировать</string>
-    <string name="keyguard_password_enter_pin_password_code">Введите PIN-код, чтобы разблокировать</string>
-    <string name="keyguard_password_wrong_pin_code">PIN-код неправильно.</string>
-    <string name="keyguard_label_text">Чтобы разблокировать, нажмите МЕНЮ, а затем нажмите 0.</string>
-    <string name="faceunlock_multiple_failures">Превышено максимальное число попыток Face Unlock</string>
-    <string name="keyguard_charged">Зарядка завершена</string>
-    <string name="keyguard_plugged_in">Зарядка</string>
-    <string name="keyguard_low_battery">Пожалуйста, подключите зарядное устройство.</string>
-    <string name="keyguard_instructions_when_pattern_disabled">Нажмите кнопку Меню для разблокировки.</string>
+    <string name="keyguard_password_enter_puk_code">Введите PUK-код и новый PIN-код</string>
+    <string name="keyguard_password_enter_puk_prompt">PUK-код</string>
+    <string name="keyguard_password_enter_pin_prompt">Новый PIN-код</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Нажмите для ввода пароля</font></string>
+    <string name="keyguard_password_enter_password_code">Введите пароль</string>
+    <string name="keyguard_password_enter_pin_password_code">Введите PIN-код</string>
+    <string name="keyguard_password_wrong_pin_code">Неверный PIN-код.</string>
+    <string name="lockscreen_sim_error_message_short">Неверный Card.</string>
+    <string name="keyguard_label_text">Для разблокировки нажмите \"Меню\", а затем 0.</string>
+    <string name="faceunlock_multiple_failures">Все попытки войти с помощью Фейсконтроля использованы</string>
+    <string name="keyguard_charged">Батарея заряжена</string>
+    <string name="keyguard_plugged_in">Зарядка батареи</string>
+    <string name="keyguard_low_battery">Подключите зарядное устройство.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Для разблокировки нажмите \"Меню\".</string>
     <string name="keyguard_network_locked_message">Сеть заблокирована</string>
+    <string name="keyguard_perso_locked_message">SIM/RUIM заблокирована Perso</string>
     <string name="keyguard_missing_sim_message_short">Нет SIM-карты</string>
-    <string name="keyguard_missing_sim_message">В тедефоне нет SIM-карты.</string>
-    <string name="keyguard_missing_sim_instructions">Пожалуйста, ставте SIM-карту.</string>
-    <string name="keyguard_missing_sim_instructions_long">SIM-карта отсутствует или не читается, пожалуйста, вставьте SIM-карту.</string>
-    <string name="keyguard_permanent_disabled_sim_message_short">SIM-карты не могут быть использованы.</string>
-    <string name="keyguard_permanent_disabled_sim_instructions">"Ваша SIM-карта была заблокирована навсегда.
-Обратитесь к поставщику услуг для получения другой SIM-карты."</string>
-    <string name="keyguard_sim_locked_message">Телефон карта была заблокирована.</string>
-    <string name="keyguard_sim_puk_locked_message">Телефон карта была заблокирована PUK-код.</string>
-    <string name="keyguard_sim_unlock_progress_dialog_message">Разблокировка телефонные карточки...</string>
+    <string name="keyguard_missing_sim_message">Нет SIM-карты.</string>
+    <string name="keyguard_missing_sim_instructions">Вставьте SIM-карту.</string>
+    <string name="keyguard_missing_sim_instructions_long">SIM-карта отсутствует или недоступна. Вставьте SIM-карту.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">SIM-карта непригодна.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"SIM-карта окончательно заблокирована.
+Чтобы получить новую, обратитесь к своему оператору."</string>
+    <string name="keyguard_sim_locked_message">SIM-карта заблокирована</string>
+    <string name="keyguard_sim_puk_locked_message">Для разблокировки SIM-карты требуется PUK-код.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">Разблокировка SIM-карты…</string>
     <string name="keyguard_accessibility_widget_changed">%1$s. Виджет %2$d из %3$d.</string>
-    <string name="keyguard_accessibility_add_widget">Добавить виджеты.</string>
-    <string name="keyguard_accessibility_widget_empty_slot">Пустой</string>
-    <string name="keyguard_accessibility_unlock_area_expanded">Начал, чтобы разблокировать регион.</string>
-    <string name="keyguard_accessibility_unlock_area_collapsed">Разблокировать область рухнул.</string>
-    <string name="keyguard_accessibility_widget">%1$s виджетов.</string>
-    <string name="keyguard_accessibility_user_selector">Селектор пользователя</string>
+    <string name="keyguard_accessibility_add_widget">Добавить виджет</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Пусто</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Область разблокировки развернута</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Область разблокировки свернута</string>
+    <string name="keyguard_accessibility_widget">Виджет \"%1$s\"</string>
+    <string name="keyguard_accessibility_user_selector">Выбор аккаунта</string>
     <string name="keyguard_accessibility_camera">Камера</string>
-    <string name="keygaurd_accessibility_media_controls">Управление мультимедиа</string>
-    <string name="keyguard_accessibility_widget_reorder_start">Начали порядок виджетов.</string>
-    <string name="keyguard_accessibility_widget_reorder_end">Завершен виджет заказана.</string>
-    <string name="keyguard_accessibility_widget_deleted">Удаленных виджетов %1$s.</string>
-    <string name="keyguard_accessibility_expand_lock_area">Развернуть разблокировки области.</string>
-    <string name="keyguard_accessibility_slide_unlock">Слайд для разблокировки.</string>
-    <string name="keyguard_accessibility_pattern_unlock">Ключ разблокировки.</string>
-    <string name="keyguard_accessibility_face_unlock">Лицо Unlock.</string>
-    <string name="keyguard_accessibility_pin_unlock">PIN-код для разблокировки.</string>
-    <string name="keyguard_accessibility_password_unlock">Пароль для разблокировки.</string>
-    <string name="keyguard_accessibility_pattern_area">Pattern области.</string>
-    <string name="keyguard_accessibility_slide_area">Слайд области.</string>
-    <string name="keyguard_accessibility_transport_prev_description">На кнопки</string>
-    <string name="keyguard_accessibility_transport_next_description">Под кнопкой</string>
-    <string name="keyguard_accessibility_transport_pause_description">Пауза</string>
-    <string name="keyguard_accessibility_transport_play_description">Кнопка Play</string>
-    <string name="keyguard_accessibility_transport_stop_description">Кнопка Stop</string>
-    <string name="keyguard_accessibility_transport_thumbs_up_description">Мне нравится, что</string>
+    <string name="keygaurd_accessibility_media_controls">Управление блокировкой</string>
+    <string name="keyguard_accessibility_widget_reorder_start">Начато переопределение порядка виджетов</string>
+    <string name="keyguard_accessibility_widget_reorder_end">Порядок виджетов определен</string>
+    <string name="keyguard_accessibility_widget_deleted">Виджет %1$s удален</string>
+    <string name="keyguard_accessibility_expand_lock_area">Развернуть области разблокировки</string>
+    <string name="keyguard_accessibility_slide_unlock">Прокрутка</string>
+    <string name="keyguard_accessibility_pattern_unlock">Графический ключ</string>
+    <string name="keyguard_accessibility_face_unlock">Фейсконтроль</string>
+    <string name="keyguard_accessibility_pin_unlock">PIN-код</string>
+    <string name="keyguard_accessibility_password_unlock">Пароль</string>
+    <string name="keyguard_accessibility_pattern_area">Область ввода графического ключа</string>
+    <string name="keyguard_accessibility_slide_area">Область слайдера</string>
+    <string name="keyguard_accessibility_transport_prev_description">Кнопка перехода к предыдущему треку</string>
+    <string name="keyguard_accessibility_transport_next_description">Кнопка перехода к следующему треку</string>
+    <string name="keyguard_accessibility_transport_pause_description">Кнопка паузы</string>
+    <string name="keyguard_accessibility_transport_play_description">Кнопка воспроизведения</string>
+    <string name="keyguard_accessibility_transport_stop_description">Кнопка выключения</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Нравится</string>
     <string name="keyguard_accessibility_transport_thumbs_down_description">Не нравится</string>
-    <string name="keyguard_accessibility_transport_heart_description">Любовь</string>
-    <string name="keyguard_accessibility_show_bouncer">Открой для продолжения</string>
-    <string name="keyguard_accessibility_hide_bouncer">Начало было отменено</string>
-    <string name="keyguard_accessibility_delete_widget_start">%1$s вниз, чтобы удалить его.</string>
-    <string name="keyguard_accessibility_delete_widget_end">%1$s не будут удалены.</string>
-    <string name="keyguard_accessibility_next_alarm">В следующий раз будильник установлен %1$s</string>
+    <string name="keyguard_accessibility_transport_heart_description">Рейтинг</string>
+    <string name="keyguard_accessibility_show_bouncer">Разблокируйте экран, чтобы продолжить.</string>
+    <string name="keyguard_accessibility_hide_bouncer">Запуск отменен.</string>
+    <string name="keyguard_accessibility_delete_widget_start">Отпустите виджет \"%1$s\", чтобы удалить его.</string>
+    <string name="keyguard_accessibility_delete_widget_end">Виджет \"%1$s\" не будет удален.</string>
+    <string name="keyguard_accessibility_next_alarm">Будильник сработает в %1$s.</string>
     <string name="password_keyboard_label_symbol_key">\?123</string>
-    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alpha_key">АБВ</string>
     <string name="password_keyboard_label_alt_key">ALT</string>
-    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_alt">Клавиша ALT</string>
     <string name="keyboardview_keycode_cancel">Отмена</string>
-    <string name="keyboardview_keycode_delete">Удалить</string>
-    <string name="keyboardview_keycode_done">завершен</string>
-    <string name="keyboardview_keycode_mode_change">Изменение режима</string>
-    <string name="keyboardview_keycode_shift">Сдвиг</string>
-    <string name="keyboardview_keycode_enter">Ввести</string>
+    <string name="keyboardview_keycode_delete">Клавиша удаления</string>
+    <string name="keyboardview_keycode_done">Готово</string>
+    <string name="keyboardview_keycode_mode_change">Клавиша смены режима</string>
+    <string name="keyboardview_keycode_shift">Клавиша смены регистра</string>
+    <string name="keyboardview_keycode_enter">Клавиша ввода</string>
     <string name="description_target_unlock">Разблокировать</string>
     <string name="description_target_camera">Камера</string>
-    <string name="description_target_silent">Немой</string>
-    <string name="description_target_soundon">Open Sound</string>
-    <string name="description_direction_down">Вниз к %s</string>
-    <string name="description_direction_right">Вправо к %s</string>
-    <string name="user_switched">Текущий пользователь %1$s.</string>
-    <string name="kg_emergency_call_label">SOS</string>
-    <string name="kg_forgot_pattern_button_text">Забудьте образец</string>
-    <string name="kg_wrong_pattern">Неверный пароль</string>
-    <string name="kg_wrong_password">Неверный пароль</string>
-    <string name="kg_wrong_pin">Неверный пароль</string>
-    <string name="kg_too_many_failed_attempts_countdown">Пожалуйста, повторите попытку через %d секунд.</string>
-    <string name="kg_pattern_instructions">Вводить пароль</string>
-    <string name="kg_sim_pin_instructions">Введите телефонные карточки PIN-код</string>
-    <string name="kg_pin_instructions">Вводить пароль</string>
+    <string name="description_target_silent">Без звука</string>
+    <string name="description_target_soundon">Включить звук</string>
+    <string name="description_direction_down">Проведите вниз, чтобы %s.</string>
+    <string name="description_direction_right">Проведите вправо, чтобы %s.</string>
+    <string name="user_switched">Выбран аккаунт пользователя %1$s.</string>
+    <string name="kg_emergency_call_label">Экстренный вызов</string>
+    <string name="kg_forgot_pattern_button_text">Забыли графический ключ?</string>
+    <string name="kg_wrong_pattern">Неправильный графический ключ</string>
+    <string name="kg_wrong_password">Неправильный пароль</string>
+    <string name="kg_wrong_pin">Неправильный PIN-код</string>
+    <string name="kg_too_many_failed_attempts_countdown">Повторите попытку через %d сек.</string>
+    <string name="kg_pattern_instructions">Введите графический ключ</string>
+    <string name="kg_sim_pin_instructions">Введите PIN-код SIM-карты</string>
+    <string name="kg_pin_instructions">Введите PIN</string>
     <string name="kg_password_instructions">Введите пароль</string>
-    <string name="kg_puk_enter_puk_hint">SIM-карта была отключена, необходимо ввести код PUK, чтобы продолжать использовать. Для получения более подробной информации, пожалуйста, обратитесь к оператору.</string>
-    <string name="kg_puk_enter_pin_hint">Пожалуйста, введите необходимое PIN-код</string>
-    <string name="kg_enter_confirm_pin_hint">Убедитесь, что требуемый ПИН-код</string>
-    <string name="kg_sim_unlock_progress_dialog_message">Разблокировка телефонные карточки...</string>
-    <string name="kg_invalid_sim_pin_hint">Пожалуйста, введите 4-8 цифр PIN-кода а.</string>
-    <string name="kg_invalid_sim_puk_hint">PUK код должен быть 8 цифр.</string>
-    <string name="kg_invalid_puk">Пожалуйста, повторно ввести правильный код PUK. Если вы попытаетесь неправильные слишком много раз, телефон карта будет постоянно отключен.</string>
-    <string name="kg_invalid_confirm_pin_hint">ПИН-коды не совпадают</string>
-    <string name="kg_login_too_many_attempts">Слишком много попыток</string>
-    <string name="kg_login_instructions">Чтобы разблокировать, пожалуйста, войдите в свой аккаунт Google.</string>
-    <string name="kg_login_username_hint">Имя пользователя (адрес электронной почты)</string>
+    <string name="kg_puk_enter_puk_hint">SIM-карта заблокирована. Чтобы продолжить, введите PUK-код. За подробной информацией обратитесь к своему оператору связи.</string>
+    <string name="kg_puk_enter_pin_hint">Введите желаемый PIN-код</string>
+    <string name="kg_enter_confirm_pin_hint">Введите PIN-код ещё раз</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Разблокировка SIM-карты…</string>
+    <string name="kg_invalid_sim_pin_hint">Введите PIN-код (от 4 до 8 цифр).</string>
+    <string name="kg_invalid_sim_puk_hint">PUK-код должен содержать не менее 8 символов.</string>
+    <string name="kg_invalid_puk">Введите правильный PUK-код. После нескольких неудачных попыток SIM-карта будет заблокирована.</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN-коды не совпадают</string>
+    <string name="kg_login_too_many_attempts">Слишком много попыток ввода графического ключа</string>
+    <string name="kg_login_instructions">Чтобы разблокировать устройство, войдите в свой аккаунт Google.</string>
+    <string name="kg_login_username_hint">Имя пользователя (эл. почта)</string>
     <string name="kg_login_password_hint">Пароль</string>
     <string name="kg_login_submit_button">Войти</string>
-    <string name="kg_login_invalid_input">Имя пользователя или неверный пароль.</string>
-    <string name="kg_login_account_recovery_hint">"Забыли логин или пароль?
-Посетите "<b>google.com/accounts/recovery</b>.</string>
-    <string name="kg_login_checking_password">Проверка аккаунта…</string>
-    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Вы имеете% d неудачных попыток ввода пароля.
+    <string name="kg_login_invalid_input">Неверное имя пользователя или пароль.</string>
+    <string name="kg_login_account_recovery_hint">"Забыли имя пользователя или пароль?
+Перейдите на страницу "<b>google.com/accounts/recovery</b>.</string>
+    <string name="kg_login_checking_password">Проверка данных…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Вы %d раз неверно указали PIN-код. 
 
-Пожалуйста, повторите попытку через %d секунд. "</string>
-    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Вы имеете% d раз ввода неправильного пароля.
+Повтор через %d сек."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Вы %d раз неверно указали пароль.
 
-Пожалуйста, повторите попытку через %d секунд. "</string>
-    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"У вас есть %d раз неверно указали графический ключ разблокировки.
+Повтор через %d сек."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Вы %d раз неверно указали графический ключ.
 
-Пожалуйста, повторите попытку через %d секунд."</string>
-    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Вы %d раз неправильно пытались разблокировать телефон. При повторном %d более неудачных попыток, телефон будет восстановлены заводские настройки по умолчанию, и все пользовательские данные будут потеряны.</string>
-    <string name="kg_failed_attempts_now_wiping">Вы %d раз неправильно пытались разблокировать телефон. Телефон будет возвращен к заводским настройкам по умолчанию.</string>
-    <string name="kg_failed_attempts_almost_at_login" formatted="false">"Вы %d раз неправильно нарисовали ваш графический ключ. После %d неудачных попыток, вам будет предложено разблокировать свой телефон с помощью учетной записи электронной почты.
+Повтор через %d сек."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Вы %d раз не смогли разблокировать телефон. После %d неверных попыток будут восстановлены заводские настройки, что приведет к удалению всех пользовательских данных.</string>
+    <string name="kg_failed_attempts_now_wiping">Вы %d раз не смогли разблокировать телефон. Будут восстановлены заводские настройки.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"Вы %d раз неверно указали графический ключ. После %d неверных попыток для разблокировки телефона потребуется войти в аккаунт Google.
 
-Пожалуйста, повторите попытку через %d секунд."</string>
-    <string name="kg_text_message_separator">" — "</string>
+Повтор через %d сек."</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_reordering_delete_drop_target_text">Удалить</string>
-    <string name="kg_password_wrong_pin_code_pukked">PIN неверный, вы должны связаться с оператором для разблокировки устройства.</string>
-    <string name="kg_password_wrong_puk_code_dead">SIM-карта не может быть использована, пожалуйста, обратитесь к оператору.</string>
-    <string name="kg_password_pin_failed">Ошибка операции SIM PIN!</string>
-    <string name="kg_password_puk_failed">Ошибка операции SIM PUK!</string>
-    <string name="kg_pin_accepted">Код принят!</string>
-    <string name="keyguard_transport_prev_description">Кнопка Назад</string>
-    <string name="keyguard_transport_next_description">Кнопка Вперед</string>
-    <string name="keyguard_transport_pause_description">Кнопка Пауза</string>
-    <string name="keyguard_transport_play_description">Кнопка Воспроизведение</string>
-    <string name="keyguard_transport_stop_description">Кнопка Стоп</string>
-    <string name="keyguard_carrier_default">Нет обслуживания.</string>
-    <string name="kg_remaining_attempts">Оставшееся количество:% d</string>
-    <string name="keyguard_sim_enter_button">OK</string>
-    <string name="keyguard_security_cancel_button">Отмена</string>
-    <string name="keyguard_security_skip_button">Пропустить</string>
-    <string name="keyguard_unlock_sim_head">Разблокировать SIM-карту %d</string>
-    <string name="keyguard_security_default_message">Введите пароль</string>
-    <string name="dic_qs_ata">Мобильные данные</string>
-    <string name="ic_qs_capture">Скриншоты</string>
-    <string name="single_ui_mode_to_multi_window_mode_msg">В режиме разделенного экрана нельзя включить режим одной руки</string>
-    <string name="close_rotation_toast">Поворот экрана выключен</string>
+    <string name="kg_password_wrong_pin_code_pukked">Неверный PIN-код. Обратитесь к оператору связи, чтобы разблокировать SIM-карту.</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM-карта заблокирована навсегда. Обратитесь к оператору связи.</string>
+    <string name="kg_password_pin_failed">Не удалось разблокировать SIM-карту</string>
+    <string name="kg_password_puk_failed">Не удалось разблокировать SIM-карту</string>
+    <string name="kg_pin_accepted">Код принят</string>
+    <string name="keyguard_transport_prev_description">Кнопка перехода к предыдущему треку</string>
+    <string name="keyguard_transport_next_description">Кнопка перехода к следующему треку</string>
+    <string name="keyguard_transport_pause_description">Кнопка паузы</string>
+    <string name="keyguard_transport_play_description">Кнопка воспроизведения</string>
+    <string name="keyguard_transport_stop_description">Кнопка выключения</string>
+    <string name="keyguard_carrier_default">Нет сигнала.</string>
+    <string name="kg_remaining_attempts">Осталось попыток: %d</string>
+    <string name="kg_dismiss">Закрыть</string>
+    <string name="kg_slot_name">"Слот %d: Новая SIM-карта "</string>
 </resources>
