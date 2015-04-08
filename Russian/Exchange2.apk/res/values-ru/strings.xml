@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="exchange_name">Общие</string>
+	<string name="exchange_name">Корпоративный</string>
     <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
     <string name="meeting_accepted">Принято: %s</string>
     <string name="meeting_declined">Отклонено: %s</string>
@@ -45,4 +45,7 @@
     <string name="account_setup_options_mail_window_2weeks">Две недели</string>
     <string name="account_setup_options_mail_window_1month">Один месяц</string>
     <string name="account_setup_options_mail_window_all">Все</string>
+    <string name="auth_error_notification_title">Ошибка аутентификации</string>
+    <string name="auth_error_notification_text">Нажмите, чтобы изменить настройки для аккаунта %s</string>
+    <string name="email_settings_not_available">Чтобы посмотреть настройки, включите приложение Email.</string>
 </resources>

@@ -20,8 +20,8 @@
     <string name="respond_via_sms_edittext_dialog_title">Быстрый ответ</string>
     <string name="respond_via_sms_menu_reset_default_activity">Восстановить настройки по умолчанию</string>
     <string name="respond_via_sms_confirmation_format">Сообщение отправлено на номер %s.</string>
-    <string name="outgoing_call_not_allowed">Пользователь не имеет права делать звонки не в аварийные службы</string>
-    <string name="outgoing_call_error_no_phone_number_supplied">Дозвон не удался, поскольку введен не корректный номер</string>
+    <string name="outgoing_call_not_allowed">Этот пользователь может звонить только в службы экстренной помощи</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">Для вызова укажите действительный номер телефона.</string>
     <string name="no_vm_number">Не указан номер голосовой почты</string>
     <string name="no_vm_number_msg">На SIM-карте нет ни одного номера голосовой почты.</string>
     <string name="add_vm_number_str">Добавить номер</string>

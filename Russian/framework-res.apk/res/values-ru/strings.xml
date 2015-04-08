@@ -1163,21 +1163,21 @@
     <string name="low_internal_storage_view_title">Недостаточно памяти</string>
     <string name="low_internal_storage_view_text">Некоторые функции могут не работать</string>
     <string name="low_internal_storage_view_text_no_boot">Недостаточно свободного места для системы. Освободите не менее 250 МБ дискового пространства и перезапустите устройство.</string>
-    <string name="app_running_notification_title">Приложение «%1$s» выполняется</string>
-    <string name="app_running_notification_text">Нажмите, чтобы получить дополнительные данные или остановить приложение.</string>
+    <string name="app_running_notification_title">Приложение \"%1$s\" выполняется</string>
+    <string name="app_running_notification_text">Нажмите, чтобы получить дополнительные данные или выключить приложение.</string>
     <string name="loading">Загрузка…</string>
-    <string name="capital_on">❙</string>
-    <string name="capital_off">〇</string>
+    <string name="capital_on">I</string>
+    <string name="capital_off">O</string>
     <string name="whichApplication">Что использовать?</string>
-    <string name="whichApplicationNamed">Выполнить с помощью приложения «%1$s»</string>
+    <string name="whichApplicationNamed">Выполнить с помощью приложения \"%1$s\"</string>
     <string name="whichViewApplication">Открыть с помощью приложения:</string>
-    <string name="whichViewApplicationNamed">Открыть с помощью приложения «%1$s»</string>
+    <string name="whichViewApplicationNamed">Открыть с помощью приложения \"%1$s\"</string>
     <string name="whichEditApplication">Редактировать с помощью приложения:</string>
-    <string name="whichEditApplicationNamed">Редактировать с помощью приложения «%1$s»</string>
+    <string name="whichEditApplicationNamed">Редактировать с помощью приложения \"%1$s\"</string>
     <string name="whichSendApplication">Поделиться с помощью приложения:</string>
-    <string name="whichSendApplicationNamed">Отправить с помощью приложения «%1$s»</string>
-    <string name="whichHomeApplication">Выберите домашний экран</string>
-    <string name="whichHomeApplicationNamed">Использовать приложение «%1$s» в качестве домашнего экрана</string>
+    <string name="whichSendApplicationNamed">Предоставлять доступ с помощью приложения \"%1$s\"</string>
+    <string name="whichHomeApplication">Выберите главное приложение</string>
+    <string name="whichHomeApplicationNamed">Назначьте приложение \"%1$s\" главным</string>
     <string name="alwaysUse">По умолчанию для этого действия</string>
     <string name="use_a_different_app">Другое приложение</string>
     <string name="clearDefaultHintMsg">Удаляет настройки по умолчанию в меню \"Настройки > Приложения > Загруженные\".</string>
@@ -1185,21 +1185,21 @@
     <string name="chooseUsbActivity">Выбор приложения для USB-устройства</string>
     <string name="noApplications">Действие не поддерживается ни в одном приложении.</string>
     <string name="aerr_title" />
-    <string name="aerr_application">В приложении «%1$s» произошла ошибка.</string>
-    <string name="aerr_process">В работе процесса «%1$s» произошла ошибка.</string>
+    <string name="aerr_application">В приложении \"%1$s\" произошла ошибка.</string>
+    <string name="aerr_process">В приложении \"%1$s\" произошла ошибка.</string>
     <string name="anr_title" />
-    <string name="anr_activity_application">"Приложение «%2$s» не отвечает.
+    <string name="anr_activity_application">"Приложение \"%2$s\" не отвечает.
 
 Закрыть его?"</string>
-    <string name="anr_activity_process">"Процесс «%1$s» не отвечает.
+    <string name="anr_activity_process">"Приложение \"%1$s\" не отвечает.
 
-Завершить его?"</string>
-    <string name="anr_application_process">Процесс приложения «%1$s» не отвечает. Завершить его?</string>
-    <string name="anr_process">"Процесс «%1$s» не отвечает.
+Закрыть его?"</string>
+    <string name="anr_application_process">Приложение \"%1$s\" не отвечает. Закрыть его?</string>
+    <string name="anr_process">"Приложение \"%1$s\" не отвечает.
 
-Завершить его?"</string>
-    <string name="force_close">Завершить</string>
-    <string name="report">Отправить отчёт</string>
+Закрыть его?"</string>
+    <string name="force_close">ОК</string>
+    <string name="report">Отзыв</string>
     <string name="wait">Подождать</string>
     <string name="webpage_unresponsive">"Страница не отвечает.
 
@@ -1711,13 +1711,13 @@
     <string name="item_is_selected">Выбран элемент %1$s</string>
     <string name="deleted_key">Цифра %1$s удалена</string>
     <string name="managed_profile_label_badge">Рабочий %1$s</string>
-    <string name="lock_to_app_toast">Чтобы открепить экран, нажмите и удерживайте клавишу «Назад» и кнопку «Обзор» одновременно.</string>
+    <string name="lock_to_app_toast">Чтобы открепить экран, нажмите и удерживайте клавишу \"Назад\" и кнопку \"Обзор\" одновременно.</string>
     <string name="lock_to_app_toast_accessible">Чтобы открепить экран, нажмите и удерживайте кнопку \"Обзор\".</string>
     <string name="lock_to_app_toast_locked">Блокировка включена. Ее отключение запрещено правилами организации.</string>
     <string name="lock_to_app_title">Использовать блокировку в приложении?</string>
     <string name="lock_to_app_description">"Функция закрепления позволяет зафиксировать текущий экран.
 
-Чтобы открепить его, нажмите и удерживайте клавишу «Назад» и кнопку «Обзор» одновременно."</string>
+Чтобы открепить его, нажмите и удерживайте клавишу \"Назад\" и кнопку \"Обзор\" одновременно."</string>
     <string name="lock_to_app_description_accessible">"Функция закрепления позволяет зафиксировать текущий экран.
 
 Чтобы открепить его, нажмите и удерживайте кнопку \"Обзор\"."</string>
