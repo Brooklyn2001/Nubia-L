@@ -20,7 +20,7 @@
     <string name="week_view">Неделя</string>
     <string name="month_view">Месяц</string>
     <string name="event_view">Просмотр мероприятия</string>
-    <string name="event_create">Создать</string>
+    <string name="event_create">Создать мероприятие</string>
     <string name="event_edit">Изменить мероприятие</string>
     <string name="event_delete">Удалить мероприятие</string>
     <string name="goto_today">Сегодня</string>
@@ -133,7 +133,7 @@
     <string name="search_history_cleared">История поиска удалена.</string>
     <string name="preferences_alerts_title">Оповещения</string>
     <string name="preferences_alerts_vibrateWhen_title">Вибросигнал</string>
-    <string name="preferences_alerts_ringtone_title">Выбрать рингтон</string>
+    <string name="preferences_alerts_ringtone_title">Мелодия уведомления</string>
     <string name="preferences_alerts_popup_title">Всплывающее уведомление</string>
     <string name="preferences_default_reminder_title">Время напоминания</string>
     <string name="preferences_default_reminder_dialog">Напомнить</string>
@@ -183,7 +183,7 @@
     <string name="event_start">начало</string>
     <string name="hint_receivers">Получатели (тел. номера)</string>
     <string name="magic_ring_set_label">Звуковой режим периода</string>
-    <string name="magic_ring_mute">Тихо</string>
+    <string name="magic_ring_mute">Без звука</string>
     <string name="magic_ring_vibrate">Вибрация</string>
     <string name="magic_ring_tone">Звонок</string>
     <string name="magic_ring_mode">Режим звонка</string>
@@ -192,7 +192,7 @@
     <string name="magic_search_food">Еда</string>
     <string name="magic_search_flight">Полет</string>
     <string name="magic_search_hotel">Отель</string>
-    <string name="color_label">Цвеная ячейка</string>
+    <string name="color_label">Цветная ячейка</string>
     <string name="picture_row_hint">Рисунок</string>
     <string name="picture_dialog_title">Выбрать рисунок</string>
     <string name="reminder_shared_phone">Общее напоминание людям</string>
@@ -213,17 +213,17 @@
     <string name="save">Сохранить</string>
     <string name="cancel">Отмена</string>
     <string name="import_label">Импорт</string>
-    <string name="birthday_append">"'s день рождения"</string>
-    <string name="file_warning">Файлне существует!</string>
+    <string name="birthday_append">" день рождения"</string>
+    <string name="file_warning">Файл не существует!</string>
     <string name="global_search_label">Календарь</string>
     <string name="global_search_description">Ранжировка информации о повестке дня</string>
     <string name="global_search_hint">Поиск повестки дня</string>
     <string name="set_date">Перейти к дате</string>
     <string name="preferences_calendar_event_reminder_title">Напомнить о событии</string>
-    <string name="menu_more">Больше</string>
+    <string name="menu_more">Еще</string>
     <string name="menu_add">Добавить</string>
     <string name="menu_today">Сегодня</string>
-    <string name="descript_label">Описание мероприятия</string>
+    <string name="descript_label">Описание события</string>
     <string name="switch_on">Вкл.</string>
     <string name="switch_off">Выкл.</string>
     <string name="view_description">Описание</string>
@@ -248,5 +248,5 @@
     <string name="weekend_work_text">Рабочий</string>
     <string name="nubia_res_capital_on">Вкл.</string>
     <string name="nubia_res_capital_off">Выкл.</string>
-    <string name="event_info_reminders_label_no">Нет напоминаний</string>
+    <string name="event_info_reminders_label_no">Не напоминать</string>
 </resources>

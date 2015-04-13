@@ -67,4 +67,8 @@
     <string name="no_new_perms">Установка этого обновления не требует новых разрешений.</string>
     <string name="grant_confirm_question">Предоставить следующие разрешения? Вот к чему будет получен доступ:</string>
     <string name="install_failed_no_certificaties">Приложение не сертифицировано.</string>
+	<string name="uninstall_application_text_user">Вы хотите удалить это приложение для пользователя %1$s?</string>
+	<string name="uninstall_blocked_profile_owner">"Это приложение необходимо для %1$ s профиля и не может быть удалено."</string>
+	<string name="uninstall_blocked_device_owner">"Это приложение требуется администратору устройства и не может быть удален."</string>
+	<string name="app_install_location_title">Предпочтительное место установки</string>
 </resources>

@@ -12,8 +12,8 @@
         <item>Стандартное качество</item>
     </string-array>
     <string-array name="artist_category">
-        <item>华语男歌手</item>
-        <item>华语女歌手</item>
+        <item>Китайские певцы</item>
+        <item>Китайские певицы</item>
         <item>华语组合</item>
         <item>欧美男歌手</item>
         <item>欧美女歌手</item>
@@ -56,11 +56,11 @@
         <item>日韩组合</item>
     </string-array>
     <string-array name="top_type_list">
-        <item>新歌榜</item>
-        <item>热歌榜</item>
-        <item>民谣榜</item>
-        <item>Billboard榜</item>
-        <item>影视金曲榜</item>
+        <item>Список Новых композиций</item>
+        <item>Список Горячих песнен</item>
+        <item>Список Народных песнен</item>
+        <item>Список Billboard</item>
+        <item>Список Видео</item>
         <item>叱诧歌曲榜</item>
         <item>HITO中文榜</item>
         <item>爵士榜</item>

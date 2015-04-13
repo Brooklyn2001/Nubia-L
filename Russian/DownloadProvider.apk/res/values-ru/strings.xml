@@ -39,4 +39,5 @@
     <string name="download_running">Загружается</string>
     <string name="download_error">Сбой</string>
     <string name="download_running_percent">Скачано %d%%</string>
+    <string name="notification_download_failed_for_space">Загрузка неудачна из-за нехватки места</string>
 </resources>
