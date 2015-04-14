@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="config_statusBarComponent">com.android.systemui.statusbar.phone.PhoneStatusBar</string>
+    <string name="quick_settings_tiles_default">wifi,bt,data,datasecond,airplane,rotation,ringersilent,vibrate,undisturbed,location,clear,cast,splitscreen</string>
+    <string name="quick_settings_tiles">default</string>
+    <string name="velocity_tracker_impl">platform</string>
+    <string name="doze_pulse_schedule">1s,10s,30s,60s,120s</string>
+    <string name="system_ui_date_pattern">@android:string/system_ui_date_pattern</string>
+    <string name="lland">L Land</string>
     <string name="app_label">Графический интерфейс системы</string>
     <string name="status_bar_clear_all_button">Очистить</string>
     <string name="status_bar_recent_remove_item_title">Удалить из списка</string>
@@ -10,6 +17,7 @@
     <string name="status_bar_ongoing_events_title">Текущие</string>
     <string name="status_bar_latest_events_title">Уведомления</string>
     <string name="battery_low_title">Батарея почти разряжена</string>
+    <string name="battery_low_subtitle">Батарея разряжена, Подключите зарядное устройство</string>
     <string name="battery_low_percent_format">Осталось %d%%</string>
     <string name="battery_low_percent_format_saver_started">Уровень заряда батареи: %d%%. Включен режим энергосбережения.</string>
     <string name="invalid_charger">"Зарядка через порт USB не поддерживается.
@@ -185,7 +193,7 @@
     <string name="data_usage_disabled_dialog_4g_title">Передача данных 4G отключена</string>
     <string name="data_usage_disabled_dialog_mobile_title">Передача мобильных данных отключена</string>
     <string name="data_usage_disabled_dialog_title">Передача данных отключена</string>
-    <string name="data_usage_disabled_dialog">"Передача данных отключена, поскольку достигнут установленный вами лимит.
+    <string name="data_usage_disabled_dialog">"Передача данных отключена, поскольку достигнут установленный вами лимит.
 
 Вы можете снова включить ее, однако за переданные данные оператор может взимать дополнительную плату."</string>
     <string name="data_usage_disabled_dialog_enable">Включить передачу данных</string>
@@ -208,6 +216,8 @@
     <string name="ethernet_label">Ethernet</string>
     <string name="quick_settings_airplane_mode_label">Режим полета</string>
     <string name="quick_settings_mobile_data_label">Моб. трафик</string>
+	<string name="quick_settings_mobile_data_label_1">Моб. трафик 1</string>
+    <string name="quick_settings_mobile_data_label_2">Моб. трафик 2</string>
     <string name="quick_settings_roaming_label">Роуминг</string>
     <string name="quick_settings_battery_charging_label">%d%%</string>
     <string name="quick_settings_battery_charged_label">100%%</string>
@@ -221,8 +231,8 @@
     <string name="quick_settings_rotation_locked_portrait_label">Вертикальная ориентация</string>
     <string name="quick_settings_rotation_locked_landscape_label">Горизонтальная ориентация</string>
     <string name="quick_settings_ime_label">Способ ввода</string>
-    <string name="quick_settings_location_label">Передача геоданных</string>
-    <string name="quick_settings_location_off_label">Местоположение выкл.</string>
+    <string name="quick_settings_location_label">GPS</string>
+    <string name="quick_settings_location_off_label">GPS выкл.</string>
     <string name="quick_settings_media_device_label">Режим медиа</string>
     <string name="quick_settings_rssi_label">RSSI</string>
     <string name="quick_settings_rssi_emergency_only">Экстр. вызов</string>
@@ -309,7 +319,7 @@
     <string name="guest_wipe_session_wipe">Начать заново</string>
     <string name="guest_wipe_session_dontwipe">Да, продолжить</string>
     <string name="user_add_user_title">Добавить пользователя?</string>
-    <string name="user_add_user_message_short">"После создания профиля его необходимо настроить.
+    <string name="user_add_user_message_short">"После создания профиля его необходимо настроить.
 
 Обновлять приложения для всех аккаунтов может любой пользователь устройства."</string>
     <string name="battery_saver_notification_title">Включен режим энергосбережения</string>
@@ -337,76 +347,187 @@
     <string name="disable_vpn">Отключить VPN</string>
     <string name="disconnect_vpn">Отключить VPN</string>
     <string name="monitoring_description_device_owned">"Этим устройством управляет организация:
-%1$s
+%1$s
+
+
+
 
-Администратор может отслеживать ваши действия в Интернете, включая работу с электронной почтой, приложениями и защищенными веб-сайтами.
+Администратор может отслеживать ваши действия в Интернете, включая работу с электронной почтой, приложениями и защищенными веб-сайтами
 
 За дополнительной информацией обратитесь к администратору."</string>
-    <string name="monitoring_description_vpn">"Вы разрешили приложению \"%1$s\" подключаться к сети VPN.
+    <string name="monitoring_description_vpn">"Вы разрешили приложению \"%1$s\" подключаться к сети VP
 
+
+
+
 Это приложение может отслеживать использование устройства и ваши действия в Интернете, включая работу с электронной почтой, приложениями и защищенными веб-сайтами."</string>
-    <string name="monitoring_description_legacy_vpn">"Устройство подключено к сети VPN (%1$s).
+    <string name="monitoring_description_legacy_vpn">"Устройство подключено к сети VPN (%1$s)
 
+
 Поставщик услуг VPN может отслеживать ваши действия в Интернете, включая работу с электронной почтой, приложениями и защищенными веб-сайтами."</string>
-    <string name="monitoring_description_vpn_device_owned">"Этим устройством управляет организация:
-%1$s
+    <string name="monitoring_description_vpn_device_owned">"Этим устройством управляет организация
+%1$
 
-Администратор может отслеживать вашу работу с электронной почтой, приложениями и защищенными веб-сайтами. Обратитесь к нему за дополнительной информацией.
+
+Администратор может отслеживать вашу работу с электронной почтой, приложениями и защищенными веб-сайтами. Обратитесь к нему за дополнительной информацией
+
 
 Ваши действия в сети также доступны приложению \"%2$s\", которому вы разрешили подключаться к сети VPN."</string>
-    <string name="monitoring_description_legacy_vpn_device_owned">"Этим устройством управляет организация:
-%1$s
+    <string name="monitoring_description_legacy_vpn_device_owned">"Этим устройством управляет организация
+%1$
 
-Администратор может отслеживать вашу работу с электронной почтой, приложениями и защищенными веб-сайтами. Обратитесь к нему за дополнительной информацией.
 
+Администратор может отслеживать вашу работу с электронной почтой, приложениями и защищенными веб-сайтами. Обратитесь к нему за дополнительной информацией
+
+
 Устройство подключено к сети VPN (%2$s). Ваши действия также доступны поставщику услуг VPN."</string>
-    <string name="monitoring_description_profile_owned">"Этим профилем управляет организация:
-%1$s
+    <string name="monitoring_description_profile_owned">"Этим профилем управляет организация
+%1$
 
-Администратор может отслеживать ваши действия в Интернете, включая работу с электронной почтой, приложениями и защищенными веб-сайтами.
+
+Администратор может отслеживать ваши действия в Интернете, включая работу с электронной почтой, приложениями и защищенными веб-сайтами
+
 
 За дополнительной информацией обращайтесь к администратору."</string>
     <string name="monitoring_description_device_and_profile_owned">"Устройством управляет организация:
-%1$s
+%1$
 Вашим профилем управляет организация:
-%2$s
+%2$
 
-Администратор может отслеживать ваши действия в Интернете, включая работу с электронной почтой, приложениями и защищенными веб-сайтами.
+
+Администратор может отслеживать ваши действия в Интернете, включая работу с электронной почтой, приложениями и защищенными веб-сайтами
+
 
 За дополнительной информацией обращайтесь к администратору."</string>
     <string name="monitoring_description_vpn_profile_owned">"Этим профилем управляет организация:
-%1$s
+%1$
 
-Администратор может отслеживать ваши действия в Интернете, включая работу с эл. почтой, приложениями и защищенными веб-сайтами. Обратитесь к нему за дополнительной информацией.
+
+Администратор может отслеживать ваши действия в Интернете, включая работу с эл. почтой, приложениями и защищенными веб-сайтами. Обратитесь к нему за дополнительной информацией.
 
 Вы разрешили приложению \"%2$s\" подключаться к VPN, и ему также доступны эти сведения."</string>
-    <string name="monitoring_description_legacy_vpn_profile_owned">"Этим профилем управляет организация:
-%1$s
+    <string name="monitoring_description_legacy_vpn_profile_owned">"Этим профилем управляет организация
+%1$
 
-Администратор может отслеживать ваши действия в Сети, включая работу с эл. почтой, приложениями и защищенными веб-сайтами Обратитесь к нему за дополнительной информацией.
+
+Администратор может отслеживать ваши действия в Сети, включая работу с эл. почтой, приложениями и защищенными веб-сайтами Обратитесь к нему за дополнительной информацией.
 
 Устройство подключено к сети VPN (%2$s). Поставщику услуг VPN также видны ваши действия в Сети."</string>
     <string name="monitoring_description_vpn_device_and_profile_owned">"Устройством управляет организация:
-%1$s
+%1$
 Вашим профилем управляет организация:
-%2$s
+%2$
 
-Администратор может отслеживать вашу работу с эл. почтой, приложениями и защищенными веб-сайтами. Обратитесь к нему за дополнительной информацией.
+
+Администратор может отслеживать вашу работу с эл. почтой, приложениями и защищенными веб-сайтами. Обратитесь к нему за дополнительной информацией.
 
 Вы разрешили приложению \"%3$s\" подключаться к VPN, и ему также доступны эти сведения."</string>
-    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Устройством управляет организация:
-%1$s
+    <string name="monitoring_description_legacy_vpn_device_and_profile_owned">"Устройством управляет организация
+%1$
 Вашим профилем управляет организация:
-%2$s
+%2$
 
-Администратор может отслеживать вашу работу с почтой, приложениями и защищенными веб-сайтами. Обратитесь к нему за дополнительной информацией.
+
+Администратор может отслеживать вашу работу с почтой, приложениями и защищенными веб-сайтами. Обратитесь к нему за дополнительной информацией.
 
 Устройство подключено к сети VPN (%3$s). Поставщику услуг VPN видны ваши действия в Сети."</string>
     <string name="keyguard_indication_trust_disabled">Устройство необходимо будет разблокировать вручную</string>
     <string name="hidden_notifications_title">Быстрый доступ к уведомлениям</string>
     <string name="hidden_notifications_text">Просматривайте уведомления на заблокированном экране.</string>
     <string name="hidden_notifications_cancel">Закрыть</string>
+
     <string name="hidden_notifications_setup">Настроить</string>
+    <string name="phone_content">Пропущенные вызовы</string>
+    <string name="screen_saver_title">Режим "В кармане"</string>
+    <string name="screen_saver_message">"Пожалуйста, не закрывайте верхнюю часть телефона"</string>
+    <string name="screen_saver_force_quite">Экстренный выход:Нажмите Громкость- и кнопку назад, одновременно.</string>
+    <string name="settings_low_battery_title">Оповещение Батареи</string>
+    <string name="settings_low_battery_message">Уровень батареи составляет менее 40%, подключите зарядное устройство</string>
+    <string name="low_battery_toast">Батарея разряжена, ваш телефон сейчас отключится.</string>
+    <string name="service_client_name">%1$s</string>
+    <string name="ic_qs_gps">GPS</string>
+    <string name="ic_qs_mobile">Data</string>
+    <string name="ic_qs_syn">Sync</string>
+    <string name="ic_qs_auto">Яркость</string>
+    <string name="ic_qs_data">Data</string>
+    <string name="ic_qs_sync">Sync</string>
+    <string name="ic_qs_rotation">Вращение</string>
+    <string name="ic_qs_motion">Движение</string>
+    <string name="ic_qs_ringer">Звонок</string>
+    <string name="ic_qs_vibrate">Вибро</string>
+    <string name="ic_qs_mute">Без звука</string>
+    <string name="ic_qs_airplane">В Самолете</string>
+    <string name="ic_qs_saving">Питание</string>
+    <string name="ic_qs_pocket">В кармане</string>
+    <string name="ic_qs_meeting">Встреча</string>
+    <string name="ic_qs_sleeping">Сон</string>
+    <string name="ic_qs_visitor">Посетитель</string>
+    <string name="ic_qs_brightness">Яркость</string>
+    <string name="ic_qs_wificast">WifiCast</string>
+    <string name="ic_qs_screen_capture">Скриншот</string>
+    <string name="ic_qs_clear">Очистить</string>
+    <string name="ic_qs_sort">Сортировать</string>
+    <string name="ic_qs_singlehand">Одна рука</string>
+    <string name="ic_qs_settings">Настройки</string>
+    <string name="ic_qs_lockscreen">Экран блокировки</string>
+    <string name="ic_qs_screenprojector">Проекционный экран</string>
+    <string name="ic_qs_splitscreen">Сплит-экрана</string>
+    <string name="ic_qs_undisturb">Не беспокоить</string>    <string name="arrange_title_name">Упорядочить переключатели</string>
+    <string name="confirm_new_sort">ok</string>
+    <string name="toast_memory_clear">Все фоновые приложения закрыты</string>
+    <string name="close_single_toast">Управление одной рукой выключено</string>
+    <string name="close_single_text">Нельзя включить одновременно поворот экрана и управление одной рукой, управление одной рукой будет выключено</string>
+    <string name="status_bar_setting_lockscreen">Экран блокировки</string>
+    <string name="status_bar_setting_notification">Уведомления</string>
+    <string name="status_bar_setting_miss" />
+    <string name="status_bar_setting_miss_sub">Пропущеные звонки и СМС на экране блокировки</string>
+    <string name="status_bar_setting_app_lockscreen">Уведомления на экране блокировки</string>
+    <string name="status_bar_setting_app_lockscreen_sub">Выбор приложений с уведомлениями на экране блокировки</string>
+    <string name="status_bar_setting_app_notification">Настройка уведомлений</string>
+    <string name="status_bar_setting_app_notification_sub">Будут отображаться уведомления выбранных приложений</string>
+    <string name="statusbar_netspeed_display">Скорость передачи данных</string>
+    <string name="statusbar_netspeed_desc">Отображать скорость передачи данных в строке состояния</string>
+    <string name="status_bar_shortcuts">Ярлыки на экране блокировки</string>
+    <string name="status_bar_activity_name">Строка состояния</string>
+    <string name="statusbar_settings">Настройки строки состояния</string>
+    <string name="rotation_single_title">Подсказки</string>
+    <string name="close_rotation_text">Нельзя включить управление одной рукой и поворот экрана одновременно, поворот экрана будет выключен</string>
+    <string name="rotation_single_checkbox_text">Больше не показывать</string>
+    <string name="rotation_single_cancel">Отмена</string>
+    <string name="rotation_single_ok">OK</string>
+    <string name="split_close_single_text">Нельзя включить одновременно режим разделения экрана и управление одной рукой, управление одной рукой будет выключено</string>
+    <string name="recent_nums_of_apps">Приложения</string>
+    <string name="nubia_rencent_left"> Свободно</string>
+    <string name="guide_close">Я знаю</string>
+    <string name="white_service_list_guide_tips">Вы можете добавить службу в белый список, чтобы она не была убита по ошибке.</string>
+    <string name="reset_service_white_list">Сбросить белый список</string>
+    <string name="more_options">Еще</string>
+    <string name="reset_service_white_list_conform">Удаление этой службы из белого списка может вызвать системную ошибку, когда вы очистите фоновые службы. Продолжить?</string>
+    <string name="reset_service_white_list_tips">Больше не показывать</string>
+    <string name="service_white_alert_dialog_title">Подсказки</string>
+    <string name="service_white_list_confirm">Сбросить белый список?</string>
+    <string name="service_white_list_reset_dilaog_title">Сброс</string>
+    <string name="service_white_list_title">Белый список</string>
+    <string name="no_running_services">Не запущен.</string>
+    <string name="settings_safetylegal_activity_loading">Загрузка...</string>
+    <string name="service_started_by_app">Запуск приложения.</string>
+    <string name="running_processes_item_description_s_s">%1$d процесс и %2$d служба</string>
+    <string name="running_processes_item_description_s_p">%1$d процесс и %2$d служба</string>
+    <string name="running_processes_item_description_p_s">%1$d процесс и %2$d служба</string>
+    <string name="running_processes_item_description_p_p">%1$d процессы и %2$d службы</string>
+    <string name="running_process_item_user_label">User: %1$s</string>
+    <string name="cached">Сохраненная копия в фоновом процессе</string>
+    <string name="lockscreen_app_list_title">Быстрые настройки</string>
+    <string name="switch_sim_caution_title">Используйте это с осторожностью</string>
+    <string name="switch_sim_caution_message">SIM%d Превышен трафик, использовать другую сим-карту для серфинга.</string>
+    <string name="zen_mode_exit">Выход</string>
+    <string name="zen_mode_time_one">1h</string>
+    <string name="zen_mode_time_four">4h</string>
+    <string name="zen_mode_time_eight">8h</string>
+    <string name="zen_mode_time_forever">Всегда</string>
+	<string name="abbrev_wday_month_day_no_year">EEEEdMMMM</string>
+    <string name="abbrev_wday_month_day_no_year_alarm">EEEdMMM</string>
+	<string name="date_format">EEEE, d MMMM</string>
     <string name="muted_by">Звук отключен приложением \"%1$s\"</string>
     <string name="zen_mode_and_condition">%1$s. %2$s.</string>
     <string name="app_name">Keyguard</string>
@@ -432,7 +553,7 @@
     <string name="keyguard_missing_sim_instructions">Вставьте SIM-карту.</string>
     <string name="keyguard_missing_sim_instructions_long">SIM-карта отсутствует или недоступна. Вставьте SIM-карту.</string>
     <string name="keyguard_permanent_disabled_sim_message_short">SIM-карта непригодна.</string>
-    <string name="keyguard_permanent_disabled_sim_instructions">"SIM-карта окончательно заблокирована.
+    <string name="keyguard_permanent_disabled_sim_instructions">"SIM-карта окончательно заблокирована
 Чтобы получить новую, обратитесь к своему оператору."</string>
     <string name="keyguard_sim_locked_message">SIM-карта заблокирована</string>
     <string name="keyguard_sim_puk_locked_message">Для разблокировки SIM-карты требуется PUK-код.</string>
@@ -514,13 +635,14 @@
     <string name="kg_login_account_recovery_hint">"Забыли имя пользователя или пароль?
 Перейдите на страницу "<b>google.com/accounts/recovery</b>.</string>
     <string name="kg_login_checking_password">Проверка данных…</string>
-    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Вы %d раз неверно указали PIN-код. 
-
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Вы %d раз неверно указали PIN-код.
+ 
 Повтор через %d сек."</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Вы %d раз неверно указали пароль.
 
 Повтор через %d сек."</string>
-    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Вы %d раз неверно указали графический ключ.
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Вы %d раз неверно указали графический ключ
+
 
 Повтор через %d сек."</string>
     <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Вы %d раз не смогли разблокировать телефон. После %d неверных попыток будут восстановлены заводские настройки, что приведет к удалению всех пользовательских данных.</string>
@@ -544,4 +666,11 @@
     <string name="kg_remaining_attempts">Осталось попыток: %d</string>
     <string name="kg_dismiss">Закрыть</string>
     <string name="kg_slot_name">"Слот %d: Новая SIM-карта "</string>
+	    <string name="keyguard_sim_enter_button">OK</string>
+    <string name="keyguard_security_cancel_button">Отмена</string>
+    <string name="keyguard_security_skip_button">Сброс</string>
+    <string name="keyguard_unlock_sim_head">Разблокировка SIM-карты %d</string>
+    <string name="keyguard_security_default_message">Введите пароль</string>
+    <string name="keyguard_clock_am">" AM"</string>
+    <string name="keyguard_clock_pm">" PM"</string>
 </resources>
